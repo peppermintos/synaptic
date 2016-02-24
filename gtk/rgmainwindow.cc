@@ -2808,8 +2808,8 @@ gboolean RGMainWindow::xapianDoSearch(void *data)
       me->refreshTable();
       // set color to a light yellow to make it more obvious that a search
       // is performed
-      gtk_style_context_add_provider(styleContext, GTK_STYLE_PROVIDER(_fastSearchCssProvider),
-                                     GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);
+      /*gtk_style_context_add_provider(styleContext, GTK_STYLE_PROVIDER(_fastSearchCssProvider),
+                                     GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);*/
    }
    me->setBusyCursor(false);
 
