@@ -1,3 +1,9 @@
+synaptic (0.83+peppermint) xenial; urgency=medium
+
+  * Remove yellowish background in quick search mode
+
+ -- Mark Greaves (PCNetSpec) <mark@pcnetspec.co.uk>  Wed, 24 Feb 2016 23:53:00 +0000
+
 synaptic (0.83) unstable; urgency=medium
 
   [ xuzhen ]
