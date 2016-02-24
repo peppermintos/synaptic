@@ -1,0 +1,30 @@
+Some FAQs:
+
+Q: Synaptic segfaults when I click on the "Repository" Window. I run Fedora
+   Core1.
+A: This may be caused by some ABI changes in used apt version. Please try
+   to recompile synaptic and see if the problem goes away. If not, please
+   mail us!
+
+
+Q: How can I change the font in synaptic
+A: 1. You are not running gnome:
+   Edit your /root/.gtkrc-2.0 and add the following line:
+   gtk-font-name = "Sans 14"
+
+   2. You use gnome 2.x:
+   Go to Applications/Desktop Preferences/Font and choose whatever you like.
+
+
+Q: Synaptic crashes with the following messages:
+   (synaptic:1316): Gdk-WARNING **: locale not supported by Xlib
+   (synaptic:1316): ZVT-WARNING **: Cannot get required fonts from "monospace 13"  
+   (synaptic:1316): ZVT-WARNING **: Failed to load any required font, so crash will  occur..check X11 font pathes and etc/pangox.alias file
+   [crash]
+A: This is most likley caused by incorrect locales. Try to set the locales
+   with "dpkg-reconfigure locales" or set it to something like:
+   $ export LC_ALL=it_IT
+   or
+   $ export LC_ALL=it_IT@euro
+   
+   

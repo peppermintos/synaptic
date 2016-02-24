@@ -1,0 +1,3736 @@
+# Chinese (Hong Kong) translation for synaptic
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the synaptic package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: synaptic\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-11 10:17+0100\n"
+"PO-Revision-Date: 2012-07-15 11:49+0000\n"
+"Last-Translator: Walter Cheuk <wwycheuk@gmail.com>\n"
+"Language-Team: Chinese (Hong Kong) <zh_HK@li.org>\n"
+"Language: zh_HK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2013-04-19 04:34+0000\n"
+"X-Generator: Launchpad (build 16567)\n"
+
+#. TRANSLATORS: Alias for the Debian package section "admin"
+#: ../common/sections_trans.cc:12
+msgid "System Administration"
+msgstr "系統管理"
+
+#. TRANSLATORS: Alias for the Debian package section "base"
+#: ../common/sections_trans.cc:14
+msgid "Base System"
+msgstr "基礎系統"
+
+#. TRANSLATORS: Alias for the Debian package section "cli-mono"
+#: ../common/sections_trans.cc:16
+msgid "Mono/CLI Infrastructure"
+msgstr "Mono/CLI 底層架構"
+
+#. TRANSLATORS: Alias for the Debian package section "comm"
+#: ../common/sections_trans.cc:18
+msgid "Communication"
+msgstr "通訊"
+
+#. TRANSLATORS: Alias for the Debian package section "database"
+#: ../common/sections_trans.cc:20
+msgid "Databases"
+msgstr "資料庫"
+
+#. TRANSLATORS: Alias for the Debian package section "devel"
+#: ../common/sections_trans.cc:22
+msgid "Development"
+msgstr "軟件開發"
+
+#. TRANSLATORS: Alias for the Debian package section "doc"
+#: ../common/sections_trans.cc:24
+msgid "Documentation"
+msgstr "說明文件"
+
+#. TRANSLATORS: Alias for the Debian package section "debug"
+#: ../common/sections_trans.cc:26
+msgid "Debug"
+msgstr "除錯"
+
+#. TRANSLATORS: Alias for the Debian package section "editors"
+#: ../common/sections_trans.cc:28
+msgid "Editors"
+msgstr "編輯器"
+
+#. TRANSLATORS: Alias for the Debian package section "electronics"
+#: ../common/sections_trans.cc:30
+msgid "Electronics"
+msgstr "電子"
+
+#. TRANSLATORS: Alias for the Debian package section "embedded"
+#: ../common/sections_trans.cc:32
+msgid "Embedded Devices"
+msgstr "嵌入式裝置"
+
+#. TRANSLATORS: Alias for the Debian package section "fonts"
+#: ../common/sections_trans.cc:34
+msgid "Fonts"
+msgstr "字型"
+
+#. TRANSLATORS: Alias for the Debian package section "games"
+#: ../common/sections_trans.cc:36
+msgid "Games and Amusement"
+msgstr "遊戲和娛樂"
+
+#. TRANSLATORS: Alias for the Debian package section "gnome"
+#: ../common/sections_trans.cc:38
+msgid "GNOME Desktop Environment"
+msgstr "GNOME 桌面環境"
+
+#. TRANSLATORS: Alias for the Debian package section "graphics"
+#: ../common/sections_trans.cc:40
+msgid "Graphics"
+msgstr "美工繪圖"
+
+#. TRANSLATORS: Alias for the Debian package section "gnu-r"
+#: ../common/sections_trans.cc:42
+msgid "GNU R statistical system"
+msgstr "GNU R 統計系統"
+
+#. TRANSLATORS: Alias for the Debian package section "gnustep"
+#: ../common/sections_trans.cc:44
+msgid "Gnustep Desktop Environment"
+msgstr "Gnustep 桌面環境"
+
+#. TRANSLATORS: Alias for the Debian package section "hamradio"
+#: ../common/sections_trans.cc:46
+msgid "Amateur Radio"
+msgstr "業餘無線電"
+
+#. TRANSLATORS: Alias for the Debian package section "haskell"
+#: ../common/sections_trans.cc:48
+msgid "Haskell Programming Language"
+msgstr "Haskell 程式語言"
+
+#. TRANSLATORS: Alias for the Debian package section "httpd"
+#: ../common/sections_trans.cc:50
+msgid "Web servers"
+msgstr "網頁伺服器"
+
+#. TRANSLATORS: Alias for the Debian package section "interpreters"
+#: ../common/sections_trans.cc:52
+msgid "Interpreted Computer Languages"
+msgstr "直譯式電腦語言"
+
+#. TRANSLATORS: Alias for the Debian package section "java"
+#: ../common/sections_trans.cc:54
+msgid "Java Programming Language"
+msgstr "Java 程式語言"
+
+#. TRANSLATORS: Alias for the Debian package section "KDE"
+#: ../common/sections_trans.cc:56
+msgid "KDE Desktop Environment"
+msgstr "KDE 桌面環境"
+
+#. TRANSLATORS: Alias for the Debian package section "kernel"
+#: ../common/sections_trans.cc:58
+msgid "Kernel and modules"
+msgstr "核心與模組"
+
+#. TRANSLATORS: Alias for the Debian package section "libdevel"
+#: ../common/sections_trans.cc:60
+msgid "Libraries - Development"
+msgstr "函式庫 - 軟件開發"
+
+#. TRANSLATORS: Alias for the Debian package section "libs"
+#: ../common/sections_trans.cc:62
+msgid "Libraries"
+msgstr "函式庫"
+
+#. TRANSLATORS: Alias for the Debian package section "lisp"
+#: ../common/sections_trans.cc:64
+msgid "Lisp Programming Language"
+msgstr "Lisp 程式語言"
+
+#. TRANSLATORS: Alias for the Debian package section "localization"
+#: ../common/sections_trans.cc:66
+msgid "Localization"
+msgstr "本地化"
+
+#. TRANSLATORS: Alias for the Debian package section "mail"
+#: ../common/sections_trans.cc:68
+msgid "Email"
+msgstr "電郵"
+
+#. TRANSLATORS: Alias for the Debian package section "math"
+#: ../common/sections_trans.cc:70
+msgid "Mathematics"
+msgstr "數學"
+
+#. TRANSLATORS: Alias for the Debian package section "misc"
+#: ../common/sections_trans.cc:72
+msgid "Miscellaneous - Text Based"
+msgstr "其他 - 文字介面"
+
+#. TRANSLATORS: Alias for the Debian package section "net"
+#: ../common/sections_trans.cc:74
+msgid "Networking"
+msgstr "網絡"
+
+#. TRANSLATORS: Alias for the Debian package section "news"
+#: ../common/sections_trans.cc:76
+msgid "Newsgroup"
+msgstr "新聞組"
+
+#. TRANSLATORS: Alias for the Debian package section "ocaml"
+#: ../common/sections_trans.cc:78
+msgid "OCaml Programming Language"
+msgstr "OCaml 程式語言"
+
+#. TRANSLATORS: Alias for the Debian package section "oldlibs"
+#: ../common/sections_trans.cc:80
+msgid "Libraries - Old"
+msgstr "函式庫 - 舊的"
+
+#. TRANSLATORS: Alias for the Debian package section "otherosfs"
+#: ../common/sections_trans.cc:82
+msgid "Cross Platform"
+msgstr "跨平台"
+
+#. TRANSLATORS: Alias for the Debian package section "perl"
+#: ../common/sections_trans.cc:84
+msgid "Perl Programming Language"
+msgstr "Perl 程式語言"
+
+#. TRANSLATORS: Alias for the Debian package section "php"
+#: ../common/sections_trans.cc:86
+msgid "PHP Programming Language"
+msgstr "PHP 程式語言"
+
+#. TRANSLATORS: Alias for the Debian package section "python"
+#: ../common/sections_trans.cc:88
+msgid "Python Programming Language"
+msgstr "Python 程式語言"
+
+#. TRANSLATORS: Alias for the Debian package section "ruby"
+#: ../common/sections_trans.cc:90
+msgid "Ruby Programming Language"
+msgstr "Ruby 程式語言"
+
+#. TRANSLATORS: Alias for the Debian package section "science"
+#: ../common/sections_trans.cc:92
+msgid "Science"
+msgstr "科學"
+
+#. TRANSLATORS: Alias for the Debian package section "shells"
+#: ../common/sections_trans.cc:94
+msgid "Shells"
+msgstr "Shell"
+
+#. TRANSLATORS: Alias for the Debian package section "sound"
+#: ../common/sections_trans.cc:96
+msgid "Multimedia"
+msgstr "多媒體"
+
+#. TRANSLATORS: Alias for the Debian package section "task"
+#: ../common/sections_trans.cc:98 ../common/rpackageview.cc:507
+msgid "Tasks"
+msgstr "任務"
+
+#. TRANSLATORS: Alias for the Debian package section "tex"
+#: ../common/sections_trans.cc:100
+msgid "TeX Authoring"
+msgstr "TeX 排版"
+
+#. TRANSLATORS: Alias for the Debian package section "text"
+#: ../common/sections_trans.cc:102
+msgid "Word Processing"
+msgstr "文書處理"
+
+#. TRANSLATORS: Alias for the Debian package section "utils"
+#: ../common/sections_trans.cc:104
+msgid "Utilities"
+msgstr "工具程式"
+
+#. TRANSLATORS: Alias for the Debian package section "vcs"
+#: ../common/sections_trans.cc:106
+msgid "Version Control Systems"
+msgstr "版本控制系統"
+
+#. TRANSLATORS: Alias for the Debian package section "video"
+#: ../common/sections_trans.cc:108
+msgid "Video software"
+msgstr "影片軟件"
+
+#. TRANSLATORS: Alias for the Debian package section "web"
+#: ../common/sections_trans.cc:110
+msgid "World Wide Web"
+msgstr "萬維網"
+
+#. TRANSLATORS: Alias for the Debian package section "x11"
+#: ../common/sections_trans.cc:112
+msgid "Miscellaneous  - Graphical"
+msgstr "其他 - 圖形介面"
+
+#. TRANSLATORS: Alias for the Debian package section "xfce"
+#: ../common/sections_trans.cc:114
+msgid "Xfce Desktop Environment"
+msgstr "Xfce 桌面環境"
+
+#. TRANSLATORS: Alias for the Debian package section "zope"
+#: ../common/sections_trans.cc:116
+msgid "Zope/Plone Environment"
+msgstr "Zope/Plone 環境"
+
+#. TRANSLATORS: The section of the package is not known
+#: ../common/sections_trans.cc:118 ../common/rpackage.cc:115
+#: ../common/rpackageview.cc:610
+msgid "Unknown"
+msgstr "不詳"
+
+#. TRANSLATORS: Alias for the Debian package section "alien"
+#: ../common/sections_trans.cc:120
+msgid "Converted From RPM by Alien"
+msgstr "由 Alien 從 RPM 轉換"
+
+#. TRANSLATORS: Ubuntu translations section
+#: ../common/sections_trans.cc:122
+msgid "Internationalization and localization"
+msgstr "國際化及本地化"
+
+#. TRANSLATORS: metapackages section
+#: ../common/sections_trans.cc:124
+msgid "Meta Packages"
+msgstr "元套件"
+
+#. TRANSLATORS: Alias for the Debian package section "education"
+#: ../common/sections_trans.cc:126
+msgid "Education"
+msgstr "教育"
+
+#. TRANSLATORS: Alias for the Debian package section "introspection"
+#: ../common/sections_trans.cc:128
+msgid "GObject Introspection data"
+msgstr "GObject Introspection 資料"
+
+#. TRANSLATORS: Alias for the Debian package section "non-US"
+#. Export to the outside of the USA is not allowed
+#. or restricted
+#: ../common/sections_trans.cc:133 ../common/sections_trans.cc:151
+#: ../common/sections_trans.cc:155
+msgid "Restricted On Export"
+msgstr "受美國出口限制"
+
+#. TRANSLATORS: Alias for the Debian package section "non free"
+#: ../common/sections_trans.cc:135 ../common/sections_trans.cc:152
+msgid "non free"
+msgstr "非自由軟件"
+
+#. TRANSLATORS: Alias for the Debian package section "contrib"
+#. Free software that depends on non-free software
+#: ../common/sections_trans.cc:138 ../common/sections_trans.cc:156
+msgid "contrib"
+msgstr "依賴非自由軟件的自由軟件"
+
+#: ../common/indexcopy.cc:51 ../common/rpmindexcopy.cc:75
+#, c-format
+msgid "Stat failed for %s"
+msgstr "未能統計 %s"
+
+#: ../common/indexcopy.cc:78 ../common/rpmindexcopy.cc:107
+msgid "Unable to create a tmp file"
+msgstr "無法建立暫存檔"
+
+#: ../common/indexcopy.cc:107
+msgid "gzip failed, perhaps the disk is full."
+msgstr "gzip 失敗，可能磁碟已滿。"
+
+#: ../common/indexcopy.cc:128
+msgid "Failed to reopen fd"
+msgstr "未能重新開啟 fd"
+
+#: ../common/indexcopy.cc:218 ../common/indexcopy.cc:242
+#: ../common/rpmindexcopy.cc:169 ../common/rpmindexcopy.cc:205
+msgid "Failed to rename"
+msgstr "未能重新命名"
+
+#: ../common/indexcopy.cc:266
+msgid "No valid records were found."
+msgstr "找不到有效記錄。"
+
+#: ../common/indexcopy.cc:441
+msgid "Cannot find filename or size tag"
+msgstr "找不到檔案名稱或大小標記"
+
+#: ../common/indexcopy.cc:485
+msgid "Error parsing file record"
+msgstr "解讀檔案記錄時發生錯誤"
+
+#: ../common/rcdscanner.cc:112 ../common/rcdscanner.cc:162
+#, c-format
+msgid "Failed to open %s.new"
+msgstr "未能開啟 %s.new"
+
+#: ../common/rcdscanner.cc:137 ../common/rcdscanner.cc:247
+#, c-format
+msgid "Failed to rename %s.new to %s"
+msgstr "未能將 %s.new 重新命名為 %s"
+
+#: ../common/rcdscanner.cc:202 ../common/rcdscanner.cc:235
+msgid "Internal error"
+msgstr "內部錯誤"
+
+#: ../common/rcdscanner.cc:260
+msgid "Preparing..."
+msgstr "正在準備…"
+
+#: ../common/rcdscanner.cc:273
+#, c-format
+msgid "Unable to read the cdrom database %s"
+msgstr "無法讀取 CD-ROM 資料庫 %s"
+
+#: ../common/rcdscanner.cc:280 ../common/rcdscanner.cc:322
+#: ../common/rcdscanner.cc:421
+msgid "Unmounting CD-ROM..."
+msgstr "正在卸載 CD-ROM..."
+
+#: ../common/rcdscanner.cc:283
+msgid "Waiting for disc..."
+msgstr "正在等待光碟..."
+
+#: ../common/rcdscanner.cc:284
+msgid "Insert a disc in the drive."
+msgstr "請將光碟插入光碟機。"
+
+#. Mount the new CDROM
+#: ../common/rcdscanner.cc:288
+msgid "Mounting CD-ROM..."
+msgstr "正在掛載 CD-ROM..."
+
+#: ../common/rcdscanner.cc:291
+msgid "Failed to mount the cdrom."
+msgstr "未能掛載 CD-ROM"
+
+#: ../common/rcdscanner.cc:295
+msgid "Identifying disc..."
+msgstr "正在識別光碟..."
+
+#: ../common/rcdscanner.cc:298
+msgid "Couldn't identify disc."
+msgstr "無法識別光碟。"
+
+#: ../common/rcdscanner.cc:301
+msgid "Scanning disc..."
+msgstr "正在掃描光碟..."
+
+#: ../common/rcdscanner.cc:316
+msgid "Cleaning package lists..."
+msgstr "正在清理套件清單..."
+
+#: ../common/rcdscanner.cc:329
+msgid ""
+"Unable to locate any package files. Perhaps this is not an APT enabled disc."
+msgstr "找不到套件檔案。可能這不是 APT 可使用的光碟。"
+
+#: ../common/rcdscanner.cc:380
+msgid "Disc not successfully scanned."
+msgstr "未完成掃描光碟"
+
+#: ../common/rcdscanner.cc:384
+msgid "Empty disc name."
+msgstr "光碟名稱空白"
+
+#: ../common/rcdscanner.cc:387
+msgid "Registering disc..."
+msgstr "正在註冊光碟..."
+
+#: ../common/rcdscanner.cc:401
+msgid "Copying package lists..."
+msgstr "正在複製套件清單..."
+
+#: ../common/rcdscanner.cc:410
+msgid "Writing sources list..."
+msgstr "正在寫入來源清單..."
+
+#: ../common/rcdscanner.cc:425
+msgid "Done!"
+msgstr "完成！"
+
+#: ../common/rcdscanner.cc:523
+#, c-format
+msgid "Failed to stat %s%s"
+msgstr "未能統計 %s%s"
+
+#: ../common/rcdscanner.cc:625 ../common/rcdscanner.cc:721
+#, c-format
+msgid "Unable to change to %s"
+msgstr "無法切換至 %s"
+
+#: ../common/rcdscanner.cc:663 ../common/rsources.cc:177
+#, c-format
+msgid "Unable to read %s"
+msgstr "無法讀取 %s"
+
+#: ../common/rconfiguration.cc:119 ../common/rconfiguration.cc:286
+#, c-format
+msgid "ERROR: couldn't open %s for writing"
+msgstr "錯誤：無法開啟 %s 作寫入"
+
+#: ../common/rconfiguration.cc:145
+msgid "ERROR: Could not get password entry for superuser"
+msgstr "錯誤：無法取得超級使用者的密碼輸入"
+
+#: ../common/rconfiguration.cc:154
+#, c-format
+msgid "ERROR: could not create configuration directory %s"
+msgstr "錯誤：無法建立設定檔目錄 %s"
+
+#: ../common/rconfiguration.cc:178
+#, c-format
+msgid "ERROR: could not create state directory %s"
+msgstr "錯誤：無法建立狀態目錄 %s"
+
+#: ../common/rconfiguration.cc:195
+#, c-format
+msgid "ERROR: could not create tmp directory %s"
+msgstr "錯誤：無法建立暫存檔目錄 %s"
+
+#: ../common/rconfiguration.cc:213
+#, c-format
+msgid "ERROR: could not create log directory %s"
+msgstr "錯誤：無法建立日誌目錄 %s"
+
+#: ../common/rconfiguration.cc:311
+#, c-format
+msgid "couldn't open %s for writing"
+msgstr "不能開啟 %s 來寫入"
+
+#: ../common/rinstallprogress.cc:41
+msgid ""
+"\n"
+"Successfully applied all changes. You can close the window now."
+msgstr ""
+"\n"
+"所有變更已經套用完成。您現在可以將視窗關閉。"
+
+#: ../common/rinstallprogress.cc:42
+msgid ""
+"\n"
+"Not all changes and updates succeeded. For further details of the failure, "
+"please expand the 'Details' panel below."
+msgstr ""
+"\n"
+"並未成功完成所有變更及更新，要查閱詳細的錯誤資訊，請展開下方的「詳情」面板。"
+
+#: ../common/rinstallprogress.cc:44
+msgid ""
+"\n"
+"Successfully installed all packages of the current medium. To continue the "
+"installation with the next medium close this window."
+msgstr ""
+"\n"
+"成功安裝目前媒體所有套件。要繼續安裝，請放入下一個媒體並關閉此視窗。"
+
+#: ../common/rpackage.cc:243
+msgid "The list of installed files is only available for installed packages"
+msgstr "只有已安裝套件會有檔案安裝清單"
+
+#: ../common/rpackage.cc:517
+msgid "or dependency"
+msgstr "或相依關係"
+
+#: ../common/rpackage.cc:634
+#, c-format
+msgid ""
+"\n"
+"Package %s has no available version, but exists in the database.\n"
+"This typically means that the package was mentioned in a dependency and "
+"never uploaded, has been obsoleted or is not available with the contents of "
+"sources.list\n"
+msgstr ""
+"\n"
+"套件 %s 沒有現存的版本，但卻存在於資料庫。\n"
+"這代表該套件本來被認為與其他套件是有相依關係，但從來沒有上傳過、現已過時或不"
+"在 source.list 之中。\n"
+
+#. TRANSLATORS: dependency error message, example:
+#. "apt 0.5.4 but 0.5.3 is to be installed"
+#: ../common/rpackage.cc:671
+#, c-format
+msgid "\t%s %s but %s is to be installed"
+msgstr "\t%s %s 但將會安裝 %s"
+
+#. TRANSLATORS: dependency error message, example:
+#. "Depends: apt 0.5.4 but 0.5.3 is to be installed"
+#: ../common/rpackage.cc:677
+#, c-format
+msgid " %s: %s %s but %s is to be installed"
+msgstr " %s: %s %s 但將會安裝 %s"
+
+#. TRANSLATORS: dependency error message, example:
+#. "apt 0.5.4 but it is not installable"
+#: ../common/rpackage.cc:687
+#, c-format
+msgid "\t%s %s but it is not installable"
+msgstr "\t%s %s 但其不能安裝"
+
+#. TRANSLATORS: dependency error message, example:
+#. "apt but it is a virtual package"
+#: ../common/rpackage.cc:699
+#, c-format
+msgid "\t%s but it is a virtual package"
+msgstr "\t%s 但其為虛擬套件"
+
+#. TRANSLATORS: dependency error message, example:
+#. "Depends: apt but it is a virtual package"
+#: ../common/rpackage.cc:704
+#, c-format
+msgid "%s: %s but it is a virtual package"
+msgstr "%s: %s 但其為虛擬套件"
+
+#. TRANSLATORS: dependency error message, example:
+#. "apt but it is not going to be installed"
+#: ../common/rpackage.cc:709
+#, c-format
+msgid "\t%s but it is not going to be installed"
+msgstr "\t%s 但其不準備會安裝"
+
+#. TRANSLATORS: dependency error message, example:
+#. "Depends: apt but it is not going to be installed"
+#: ../common/rpackage.cc:714
+#, c-format
+msgid "%s: %s but it is not going to be installed"
+msgstr "%s: %s 但其不準備會安裝"
+
+#: ../common/rpackage.cc:733
+msgid " or"
+msgstr " 或"
+
+#: ../common/rpackage.cc:1123
+msgid "Invalid record in the preferences file, no Package header"
+msgstr "偏好設定檔包含無效的記錄：沒有套件檔頭"
+
+#: ../common/rpackage.h:53 ../common/rpackagefilter.cc:49
+msgid "Depends"
+msgstr "依賴"
+
+#: ../common/rpackage.h:54
+msgid "PreDepends"
+msgstr "預先依賴"
+
+#: ../common/rpackage.h:55 ../common/rpackagefilter.cc:54
+msgid "Suggests"
+msgstr "建議"
+
+#: ../common/rpackage.h:56 ../common/rpackagefilter.cc:53
+msgid "Recommends"
+msgstr "推薦"
+
+#: ../common/rpackage.h:57 ../common/rpackagefilter.cc:51
+msgid "Conflicts"
+msgstr "不相容"
+
+#: ../common/rpackage.h:58 ../common/rpackagefilter.cc:52
+msgid "Replaces"
+msgstr "取代"
+
+#: ../common/rpackage.h:59
+msgid "Obsoletes"
+msgstr "淘汰"
+
+#: ../common/rpackage.h:60
+msgid "Breaks"
+msgstr "毀損"
+
+#: ../common/rpackage.h:61
+msgid "Enhances"
+msgstr "增強"
+
+#. make sure this is always the last member
+#: ../common/rpackage.h:69
+msgid "Dependency of"
+msgstr "被依賴"
+
+#: ../common/rpackagestatus.cc:49
+msgid "Marked for installation"
+msgstr "已標記為安裝"
+
+#: ../common/rpackagestatus.cc:50
+msgid "Marked for re-installation"
+msgstr "已標記為重新安裝"
+
+#: ../common/rpackagestatus.cc:51
+msgid "Marked for upgrade"
+msgstr "已標記為升級"
+
+#: ../common/rpackagestatus.cc:52
+msgid "Marked for downgrade"
+msgstr "已標記為降級"
+
+#: ../common/rpackagestatus.cc:53
+msgid "Marked for removal"
+msgstr "已標記為移除"
+
+#: ../common/rpackagestatus.cc:54
+msgid "Marked for complete removal"
+msgstr "已標記為徹底移除"
+
+#: ../common/rpackagestatus.cc:55 ../common/rpackageview.cc:143
+#: ../gtk/gtkbuilder/window_filters.ui.h:18
+msgid "Not installed"
+msgstr "未安裝"
+
+#: ../common/rpackagestatus.cc:56
+msgid "Not installed (locked)"
+msgstr "未安裝 (已鎖定)"
+
+#: ../common/rpackagestatus.cc:57 ../common/rpackageview.cc:138
+#: ../gtk/gsynaptic.cc:572 ../gtk/gtkbuilder/window_filters.ui.h:10
+msgid "Installed"
+msgstr "已安裝"
+
+#: ../common/rpackagestatus.cc:58 ../common/rpackageview.cc:175
+#: ../gtk/gsynaptic.cc:561
+msgid "Installed (upgradable)"
+msgstr "已安裝 (可升級)"
+
+#: ../common/rpackagestatus.cc:59
+msgid "Installed (locked to the current version)"
+msgstr "已安裝 (目前版本被鎖定)"
+
+#: ../common/rpackagestatus.cc:60 ../common/rpackageview.cc:521
+#: ../gtk/gtkbuilder/window_filters.ui.h:38
+msgid "Broken"
+msgstr "安裝不完整"
+
+#: ../common/rpackagestatus.cc:61
+msgid "Not installed (new in repository)"
+msgstr "未安裝 (軟件庫新套件)"
+
+#: ../common/rpackagecache.cc:62
+msgid ""
+"The list of sources could not be read.\n"
+"Go to the repository dialog to correct the problem."
+msgstr ""
+"無法讀取來源清單。\n"
+"請前往軟件庫視窗修正這問題。"
+
+#: ../common/rpackagecache.cc:73
+msgid "The package lists or status file could not be parsed or opened."
+msgstr "無法解讀或開啟套件清單或狀態檔案。"
+
+#: ../common/rpackagecache.cc:112
+msgid "Internal Error, non-zero counts"
+msgstr "內部錯誤，計算出非零"
+
+#: ../common/rpackagefilter.cc:45 ../gtk/rgfindwindow.h:32
+#: ../gtk/rgpreferenceswindow.cc:1163
+msgid "Name"
+msgstr "名稱"
+
+#: ../common/rpackagefilter.cc:46 ../gtk/rgpreferenceswindow.cc:53
+#: ../gtk/rgpkgtreeview.cc:228 ../gtk/rgvendorswindow.cc:63
+#: ../gtk/rgvendorswindow.cc:95 ../gtk/gtkbuilder/window_main.ui.h:65
+#: ../gtk/gtkbuilder/window_details.ui.h:21 ../gtk/rgfiltermanager.h:70
+msgid "Description"
+msgstr "描述"
+
+#: ../common/rpackagefilter.cc:47 ../gtk/rgfindwindow.h:34
+#: ../gtk/rgfiltermanager.h:71
+msgid "Maintainer"
+msgstr "維護者"
+
+#: ../common/rpackagefilter.cc:48 ../gtk/rgfindwindow.h:35
+msgid "Version"
+msgstr "版本"
+
+#: ../common/rpackagefilter.cc:50
+msgid "Provides"
+msgstr "提供"
+
+#: ../common/rpackagefilter.cc:55
+msgid "ReverseDepends"
+msgstr "反向依賴"
+
+#. Reverse Depends
+#: ../common/rpackagefilter.cc:56 ../common/rpackageview.h:140
+#: ../gtk/gtkbuilder/window_main.ui.h:63 ../gtk/rgfiltermanager.h:80
+msgid "Origin"
+msgstr "源自"
+
+#. Origin (e.g. security.debian.org)
+#: ../common/rpackagefilter.cc:57 ../gtk/rgpreferenceswindow.cc:52
+#: ../gtk/rgpkgtreeview.cc:121 ../gtk/rgfiltermanager.h:81
+msgid "Component"
+msgstr "組件"
+
+#: ../common/rpackagefilter.cc:62 ../common/rpackageview.h:156
+#: ../gtk/rgpreferenceswindow.cc:51 ../gtk/rgfetchprogress.cc:93
+#: ../gtk/gtkbuilder/window_filters.ui.h:51
+msgid "Status"
+msgstr "狀態"
+
+#. g_object_set(G_OBJECT(renderer), "editable", TRUE, NULL);
+#: ../common/rpackagefilter.cc:63 ../gtk/rgfiltermanager.cc:235
+msgid "Pattern"
+msgstr "式樣"
+
+#: ../common/rpackagefilter.cc:64 ../gtk/rgpreferenceswindow.cc:51
+#: ../gtk/rgpkgtreeview.cc:100 ../gtk/gtkbuilder/window_filters.ui.h:54
+msgid "Section"
+msgstr "組別"
+
+#: ../common/rpackagefilter.cc:65
+msgid "Priority"
+msgstr "優先級"
+
+#: ../common/rpackagefilter.cc:66
+msgid "ReducedView"
+msgstr "簡化檢示"
+
+#: ../common/rpackagefilter.cc:67
+msgid "File"
+msgstr "檔案"
+
+#: ../common/rpackagefilter.cc:770
+#, c-format
+msgid "Bad regular expression '%s' in ReducedView file."
+msgstr "簡化檢示檔有錯誤正規表示式 ‘%s’"
+
+#: ../common/rpackagelister.cc:325 ../common/rpackagelister.cc:331
+#: ../common/rpackagelister.cc:341
+#, c-format
+msgid "Internal error opening cache (%d). Please report."
+msgstr "開啟快取 (%d) 時發生錯誤。請報告。"
+
+#: ../common/rpackagelister.cc:532
+msgid "Unable to correct dependencies"
+msgstr "無法修正依存關係。"
+
+#: ../common/rpackagelister.cc:534
+msgid ""
+"Unable to mark upgrades\n"
+"Check your system for errors."
+msgstr ""
+"無法標記升級\n"
+"請檢查系統是否有問題。"
+
+#: ../common/rpackagelister.cc:546
+msgid "Internal Error, AllUpgrade broke stuff. Please report."
+msgstr "內部錯誤，全部升級破壞了原有內容。請報告。"
+
+#: ../common/rpackagelister.cc:564
+msgid "dist upgrade Failed"
+msgstr "未能進行系統升級"
+
+#: ../common/rpackagelister.cc:1302
+msgid "Unable to lock the list directory"
+msgstr "無法鎖定清單目錄"
+
+#: ../common/rpackagelister.cc:1338
+msgid ""
+"Release files for some repositories could not be retrieved or authenticated. "
+"Such repositories are being ignored."
+msgstr "無法抓取或認證某些軟件庫的 Release 檔。不理會那些軟件庫。"
+
+#: ../common/rpackagelister.cc:1422 ../gtk/rgrepositorywin.cc:396
+msgid "Ignoring invalid record(s) in sources.list file!"
+msgstr "略過 sources.list 檔無效的記錄！"
+
+#. TRANSLATORS: Error message after a failed download.
+#. The first %s is the URL and the second
+#. one is a detailed error message that
+#. is provided by apt
+#: ../common/rpackagelister.cc:1473
+#, c-format
+msgid ""
+"Failed to fetch %s\n"
+"  %s\n"
+"\n"
+msgstr ""
+"未能取得 %s\n"
+"  %s\n"
+"\n"
+
+#: ../common/rpackagelister.cc:1497
+msgid "Some of the packages could not be retrieved from the server(s).\n"
+msgstr "有些套件未能從伺服器抓取。\n"
+
+#: ../common/rpackagelister.cc:1500
+msgid "Do you want to continue, ignoring these packages?"
+msgstr "想要略過這些套件並繼續嗎？"
+
+#: ../common/rpackagelister.cc:1507
+msgid "Unable to correct missing packages"
+msgstr "無法修正套件遺漏的問題"
+
+#. _logEntry += _("\n<b>Removed the following ESSENTIAL packages:</b>\n");
+#: ../common/rpackagelister.cc:1645
+msgid ""
+"\n"
+"Removed the following ESSENTIAL packages:\n"
+msgstr ""
+"\n"
+"移除了以下＊必要＊套件：\n"
+
+#. _logEntry += _("\n<b>Downgraded the following packages:</b>\n");
+#: ../common/rpackagelister.cc:1654
+msgid ""
+"\n"
+"Downgraded the following packages:\n"
+msgstr ""
+"\n"
+"降級了以下套件：\n"
+
+#. _logEntry += _("\n<b>Completely removed the following packages:</b>\n");
+#: ../common/rpackagelister.cc:1663
+msgid ""
+"\n"
+"Completely removed the following packages:\n"
+msgstr ""
+"\n"
+"徹底移除了以下套件：\n"
+
+#. _logEntry += _("\n<b>Removed the following packages:</b>\n");
+#: ../common/rpackagelister.cc:1672
+msgid ""
+"\n"
+"Removed the following packages:\n"
+msgstr ""
+"\n"
+"移除了以下套件：\n"
+
+#. _logEntry += _("\n<b>Upgraded the following packages:</b>\n");
+#: ../common/rpackagelister.cc:1681
+msgid ""
+"\n"
+"Upgraded the following packages:\n"
+msgstr ""
+"\n"
+"升級了以下套件：\n"
+
+#. _logEntry += _("\n<b>Installed the following packages:</b>\n");
+#: ../common/rpackagelister.cc:1692
+msgid ""
+"\n"
+"Installed the following packages:\n"
+msgstr ""
+"\n"
+"安裝了以下套件：\n"
+
+#. _logEntry += _("\n<b>Reinstalled the following packages:</b>\n");
+#: ../common/rpackagelister.cc:1702
+msgid ""
+"\n"
+"Reinstalled the following packages:\n"
+msgstr ""
+"\n"
+"重新安裝了以下套件：\n"
+
+#: ../common/rpackagelister.cc:1719
+msgid "Unable to lock the download directory"
+msgstr "無法鎖定下載目錄"
+
+#: ../common/rpackagelister.cc:1806
+#, c-format
+msgid "Line %u too long in markings file."
+msgstr "標記檔第 %u 行過長。"
+
+#: ../common/rpackagelister.cc:1819 ../common/rpackagelister.cc:1823
+#, c-format
+msgid "Malformed line %u in markings file"
+msgstr "標記檔第 %u 行出現錯誤"
+
+#: ../common/rpackagelister.cc:1840
+msgid "Setting markings..."
+msgstr "正在設定標記..."
+
+#: ../common/rpmindexcopy.cc:135
+msgid "bzip2 failed, perhaps the disk is full."
+msgstr "bzip2 失敗，可能磁碟已滿。"
+
+#: ../common/rpackageview.h:106
+msgid "Sections"
+msgstr "組別"
+
+#: ../common/rpackageview.h:116
+msgid "Alphabetic"
+msgstr "按字母順序"
+
+#: ../common/rpackageview.h:130
+msgid "Architecture"
+msgstr "架構"
+
+#: ../common/rpackageview.h:183
+msgid "Search History"
+msgstr "搜尋歷史"
+
+#: ../common/rpackageview.h:238
+msgid "Custom"
+msgstr "自訂"
+
+#: ../common/rpackageview.cc:136
+msgid "Installed (unsupported)"
+msgstr "已安裝 (不支援)"
+
+#: ../common/rpackageview.cc:141
+msgid "Not installed (unsupported)"
+msgstr "未安裝 (不支援)"
+
+#: ../common/rpackageview.cc:150
+msgid "Installed (auto removable)"
+msgstr "已安裝 (可自動移除)"
+
+#: ../common/rpackageview.cc:158
+msgid "Installed (manual)"
+msgstr "已安裝 (手動)"
+
+#: ../common/rpackageview.cc:164
+msgid "Broken dependencies"
+msgstr "依存關係損毀"
+
+#: ../common/rpackageview.cc:166 ../gtk/gtkbuilder/window_filters.ui.h:30
+msgid "New in repository"
+msgstr "軟件庫新套件"
+
+#: ../common/rpackageview.cc:168 ../gtk/gtkbuilder/window_filters.ui.h:32
+msgid "Pinned"
+msgstr "已釘上"
+
+#: ../common/rpackageview.cc:172
+msgid "Installed (local or obsolete)"
+msgstr "已安裝 (本地或已被淘汰)"
+
+#: ../common/rpackageview.cc:178
+msgid "Not installed (residual config)"
+msgstr "未安裝 (遺留設置檔)"
+
+#. setup search progress (0 done, _all.size() in total, 1 subtask)
+#: ../common/rpackageview.cc:312
+msgid "Searching"
+msgstr "正在搜尋"
+
+#: ../common/rpackageview.cc:499
+msgid "Search Filter"
+msgstr "篩選搜尋"
+
+#: ../common/rpackageview.cc:513
+msgid "Reduced View"
+msgstr "簡化檢示"
+
+#: ../common/rpackageview.cc:530 ../gtk/gsynaptic.cc:586
+#: ../gtk/rgsummarywindow.cc:359
+msgid "Marked Changes"
+msgstr "已標記變更"
+
+#. TRANSLATORS: This is a filter that will give you all packages
+#. with debconf support (that can be reconfigured with debconf)
+#: ../common/rpackageview.cc:541
+msgid "Package with Debconf"
+msgstr "Debconf 支援套件"
+
+#: ../common/rpackageview.cc:548 ../gtk/gtkbuilder/window_filters.ui.h:14
+msgid "Upgradable (upstream)"
+msgstr "可升級 (上游)"
+
+#: ../common/rpackageview.cc:561
+msgid "Community Maintained (installed)"
+msgstr "由社羣維護 (已安裝)"
+
+#: ../common/rpackageview.cc:567
+msgid "Missing Recommends"
+msgstr "遺失建議"
+
+#: ../common/rpackageview.cc:592 ../common/rpackageview.cc:613
+msgid "Local"
+msgstr "本地"
+
+#. std::cerr << "version.second: " << version.second
+#. << " origin_str: " << suite << std::endl;
+#: ../common/rpackageview.cc:638
+msgid "Not automatic: "
+msgstr "非自動： "
+
+#: ../common/rsources.cc:69 ../gtk/rgmainwindow.cc:2045
+#: ../gtk/rgmainwindow.cc:2755 ../gtk/rgmainwindow.cc:2888
+#: ../gtk/rgmainwindow.cc:3067
+#, c-format
+msgid "Can't read %s"
+msgstr "無法讀取 %s"
+
+#: ../common/rsources.cc:131
+#, c-format
+msgid "Syntax error in line %s"
+msgstr "第 %s 行語法錯誤"
+
+#: ../common/rsources.cc:469
+#, c-format
+msgid "Vendor block %s is invalid"
+msgstr "發行商區域 %s 無效"
+
+#: ../gtk/gsynaptic.cc:73
+msgid "Usage: synaptic [options]\n"
+msgstr "用法：synaptic [選項]\n"
+
+#: ../gtk/gsynaptic.cc:74
+msgid "-h   This help text\n"
+msgstr "-h   本求助訊息\n"
+
+#: ../gtk/gsynaptic.cc:75
+msgid "-r   Open in the repository screen\n"
+msgstr "-r   開啟軟件庫畫面\n"
+
+#: ../gtk/gsynaptic.cc:76
+msgid "-f=? Give an alternative filter file\n"
+msgstr "-f=? 給與後備篩選檔\n"
+
+#: ../gtk/gsynaptic.cc:77
+msgid ""
+"-t   Give an alternative main window title (e.g. hostname with `uname -n`)\n"
+msgstr "-t   給與後備主視窗標題 (例如以 `uname -n` 提供主機名稱)\n"
+
+#: ../gtk/gsynaptic.cc:78
+msgid "-i=? Start with the initial Filter with given name\n"
+msgstr "-i=? 以給與的名稱執行初始篩選\n"
+
+#: ../gtk/gsynaptic.cc:79
+msgid "-o=? Set an arbitrary configuration option, eg -o dir::cache=/tmp\n"
+msgstr ""
+
+#: ../gtk/gsynaptic.cc:80
+msgid "--upgrade-mode  Call Upgrade and display changes\n"
+msgstr "--upgrade-mode  執行升級及顯示變更\n"
+
+#: ../gtk/gsynaptic.cc:81
+msgid "--dist-upgrade-mode  Call DistUpgrade and display changes\n"
+msgstr "--dist-upgrade-mode  執行系統升級及顯示變更\n"
+
+#: ../gtk/gsynaptic.cc:82
+msgid "--update-at-startup  Call \"Reload\" on startup\n"
+msgstr "--update-at-startup  開始時執行「重新載入」功能\n"
+
+#: ../gtk/gsynaptic.cc:83
+msgid "--non-interactive Never prompt for user input\n"
+msgstr "--non-interactive 不會提示使用者作輸入\n"
+
+#: ../gtk/gsynaptic.cc:84
+msgid "--task-window Open with task window\n"
+msgstr "--task-window 開啟任務視窗\n"
+
+#: ../gtk/gsynaptic.cc:85
+msgid "--add-cdrom Add a cdrom at startup (needs path for cdrom)\n"
+msgstr "--add-cdrom 在開始執行時加入光碟 (需要光碟的路徑)\n"
+
+#: ../gtk/gsynaptic.cc:86
+msgid "--ask-cdrom Ask for adding a cdrom and exit\n"
+msgstr "--ask-cdrom 詢問是否加入光碟並結束\n"
+
+#: ../gtk/gsynaptic.cc:87
+msgid "--test-me-harder  Run test in a loop\n"
+msgstr "--test-me-harder 進行迴圈測試\n"
+
+#: ../gtk/gsynaptic.cc:336 ../gtk/gsynaptic.cc:342
+msgid "Another synaptic is running"
+msgstr "另一個 synaptic 正在執行"
+
+#: ../gtk/gsynaptic.cc:337
+msgid ""
+"There is another synaptic running in interactive mode. Please close it "
+"first. "
+msgstr "有另一個 synaptic 正以交談模式執行。請先將其關閉。 "
+
+#: ../gtk/gsynaptic.cc:343
+msgid ""
+"There is another synaptic running in non-interactive mode. Please wait for "
+"it to finish first."
+msgstr "有另一個 synaptic 正以非交談模式在執行。請先將其關閉。"
+
+#: ../gtk/gsynaptic.cc:371
+msgid "Unable to get exclusive lock"
+msgstr "無法取得排他鎖定"
+
+#: ../gtk/gsynaptic.cc:372
+msgid ""
+"This usually means that another package management application (like apt-get "
+"or aptitude) is already running. Please close that application first."
+msgstr ""
+"通常是指有其他套件管理程式 (如 apt-get 或 aptitude) 正在執行。請先關閉這些程"
+"式。"
+
+#: ../gtk/gsynaptic.cc:430
+msgid "Starting \"Synaptic Package Manager\" without administrative privileges"
+msgstr ""
+
+#: ../gtk/gsynaptic.cc:432
+msgid ""
+"You will not be able to apply any changes, but you can still export the "
+"marked changes or create a download script for them."
+msgstr ""
+
+#: ../gtk/gsynaptic.cc:487
+msgid "Synaptic Package Manager "
+msgstr "Synaptic 套件管理員 "
+
+#: ../gtk/rgcdscanner.cc:63 ../gtk/rgpkgcdrom.cc:86
+msgid "Scanning CD-ROM"
+msgstr "正在掃瞄光碟機"
+
+#: ../gtk/rgcdscanner.cc:109
+msgid "Invalid disc name!"
+msgstr "光碟名稱無效！"
+
+#: ../gtk/rgcdscanner.cc:121 ../gtk/rgpkgcdrom.cc:122
+msgid "Disc Label"
+msgstr "光碟標籤"
+
+#: ../gtk/rgaboutpanel.cc:68 ../gtk/gtkbuilder/window_about.ui.h:2
+msgid "Credits"
+msgstr "鳴謝"
+
+#. skipTaskbar(true);
+#: ../gtk/rgaboutpanel.cc:90 ../gtk/gtkbuilder/window_about.ui.h:1
+msgid "About Synaptic"
+msgstr "關於 Synaptic"
+
+#: ../gtk/rgchangelogdialog.cc:26
+msgid "Downloading Changelog"
+msgstr "正在下載更改紀錄"
+
+#: ../gtk/rgchangelogdialog.cc:27
+msgid ""
+"The changelog contains information about the changes and closed bugs in each "
+"version of the package."
+msgstr "更改記錄會包含套件每個版本的變更及臭蟲修正的資訊。"
+
+#. TRANSLATORS: Title of the changelog dialog - %s is the name of the package
+#: ../gtk/rgchangelogdialog.cc:40
+#, c-format
+msgid "%s Changelog"
+msgstr "%s 的更改記錄"
+
+#: ../gtk/rgchangeswindow.cc:53
+msgid "Package changes"
+msgstr "套件更改"
+
+#: ../gtk/rgchangeswindow.cc:94 ../gtk/rgsummarywindow.cc:79
+msgid "Warning"
+msgstr "警告"
+
+#: ../gtk/rgchangeswindow.cc:95 ../gtk/rgsummarywindow.cc:80
+msgid ""
+"You are about to install software that <b>can't be authenticated</b>! Doing "
+"this could allow a malicious individual to damage or take control of your "
+"system."
+msgstr ""
+"您正準備要安裝<b>無法認證</b>的軟件！這樣做會讓一些有惡意的人損毀或控制您的系"
+"統。"
+
+#: ../gtk/rgchangeswindow.cc:106 ../gtk/rgsummarywindow.cc:92
+msgid "NOT AUTHENTICATED"
+msgstr "＊沒有認證＊"
+
+#. removed
+#: ../gtk/rgchangeswindow.cc:117
+msgid "To be removed"
+msgstr "將會移除"
+
+#: ../gtk/rgchangeswindow.cc:134
+msgid "To be downgraded"
+msgstr "將會降級"
+
+#: ../gtk/rgchangeswindow.cc:146 ../gtk/rgsummarywindow.cc:173
+msgid "To be installed"
+msgstr "將會安裝"
+
+#: ../gtk/rgchangeswindow.cc:158 ../gtk/rgsummarywindow.cc:161
+msgid "To be upgraded"
+msgstr "將會升級"
+
+#: ../gtk/rgchangeswindow.cc:170 ../gtk/rgsummarywindow.cc:185
+msgid "To be re-installed"
+msgstr "將會重新安裝"
+
+#: ../gtk/rgchangeswindow.cc:181
+msgid "To be kept"
+msgstr "將會保留"
+
+#: ../gtk/rgdebinstallprogress.cc:216
+#, c-format
+msgid ""
+"Replace configuration file\n"
+"'%s'?"
+msgstr ""
+"取代設定檔\n"
+"「%s」嗎？"
+
+#: ../gtk/rgdebinstallprogress.cc:217
+#, c-format
+msgid ""
+"The configuration file %s was modified (by you or by a script). An updated "
+"version is shipped in this package. If you want to keep your current version "
+"say 'Keep'. Do you want to replace the current file and install the new "
+"package maintainers version? "
+msgstr ""
+"設定檔 %s 曾經 (由您自己或 script) 修改過。這套件有新的版本；如果您想保留目前"
+"的版本，請選擇「保留」。是否安裝套件維護者的新版本並換走目前的檔案？ "
+
+#: ../gtk/rgdebinstallprogress.cc:355 ../gtk/rginstallprogress.cc:295
+#: ../gtk/rgterminstallprogress.cc:61
+msgid "Applying Changes"
+msgstr "套用變更"
+
+#: ../gtk/rgdebinstallprogress.cc:409
+msgid "Copy"
+msgstr "複製"
+
+#: ../gtk/rgdebinstallprogress.cc:416
+msgid "Select All"
+msgstr "全選"
+
+#: ../gtk/rgdebinstallprogress.cc:470
+msgid "Ctrl-c pressed"
+msgstr "按下 Ctrl+c"
+
+#: ../gtk/rgdebinstallprogress.cc:471
+msgid ""
+"This will abort the operation and may leave the system in a broken state. "
+"Are you sure you want to do that?"
+msgstr "這將會中止操作並可能令系統在不完整的狀態。確定要進行嗎？"
+
+#. error from dpkg, needs to be parsed different
+#: ../gtk/rgdebinstallprogress.cc:572
+#, c-format
+msgid "Error in package %s"
+msgstr "套件 %s 發生錯誤"
+
+#. running dpkg --configure -a
+#: ../gtk/rgdebinstallprogress.cc:579
+msgid "Trying to recover from package failure"
+msgstr "試著從套件錯誤中恢復"
+
+#: ../gtk/rgdebinstallprogress.cc:671
+msgid "Error failed to fork pty"
+msgstr "錯誤：未能 fork pty"
+
+#: ../gtk/rgdebinstallprogress.cc:687
+msgid "A package failed to install.  Trying to recover:"
+msgstr "未能安裝套件。正嘗試恢復："
+
+#: ../gtk/rgdebinstallprogress.cc:760 ../gtk/rgdebinstallprogress.cc:763
+msgid "Changes applied"
+msgstr "已套用變更"
+
+#: ../gtk/rgdebinstallprogress.cc:829
+msgid ""
+"The marked changes are now being applied. This can take some time. Please "
+"wait."
+msgstr "正在套用已標記的變更。這可能需要一段時間，請稍候。"
+
+#: ../gtk/rgdebinstallprogress.cc:833
+msgid "Installing and removing software"
+msgstr "正在安裝及移除軟件"
+
+#: ../gtk/rgdebinstallprogress.cc:835
+msgid "Removing software"
+msgstr "正在移除軟件"
+
+#: ../gtk/rgdebinstallprogress.cc:837
+msgid "Installing software"
+msgstr "正在安裝軟件"
+
+#: ../gtk/rgfindwindow.h:33
+msgid "Description and Name"
+msgstr "描述及名稱"
+
+#: ../gtk/rgfindwindow.h:36 ../gtk/rgmainwindow.cc:89
+#: ../gtk/gtkbuilder/window_main.ui.h:80
+#: ../gtk/gtkbuilder/window_details.ui.h:16 ../gtk/rgfiltermanager.h:73
+msgid "Dependencies"
+msgstr "依附關係"
+
+#. depends, predepends etc
+#: ../gtk/rgfindwindow.h:37 ../gtk/rgfiltermanager.h:74
+msgid "Provided packages"
+msgstr "提供套件"
+
+#: ../gtk/rgpreferenceswindow.cc:51
+msgid "Supported"
+msgstr "受支援"
+
+#: ../gtk/rgpreferenceswindow.cc:51
+msgid "Package Name"
+msgstr "套件名稱"
+
+#: ../gtk/rgpreferenceswindow.cc:52 ../gtk/rgpkgtreeview.cc:143
+msgid "Installed Version"
+msgstr "已安裝版本"
+
+#: ../gtk/rgpreferenceswindow.cc:52 ../gtk/rgpkgtreeview.cc:164
+msgid "Latest Version"
+msgstr "最新版本"
+
+#: ../gtk/rgpreferenceswindow.cc:53 ../gtk/rgfetchprogress.cc:105
+#: ../gtk/rgpkgtreeview.cc:185
+msgid "Size"
+msgstr "大小"
+
+#: ../gtk/rgpreferenceswindow.cc:53
+msgid "Download Size"
+msgstr "下載大小"
+
+#: ../gtk/rgpreferenceswindow.cc:59
+msgid "Keep Configuration"
+msgstr "保留設定"
+
+#: ../gtk/rgpreferenceswindow.cc:59
+msgid "Completely"
+msgstr "徹底"
+
+#: ../gtk/rgpreferenceswindow.cc:62 ../gtk/rgpreferenceswindow.cc:65
+msgid "Always Ask"
+msgstr "一定先詢問"
+
+#: ../gtk/rgpreferenceswindow.cc:62
+msgid "Ignore"
+msgstr "略過"
+
+#: ../gtk/rgpreferenceswindow.cc:62
+msgid "Automatically"
+msgstr "自動"
+
+#: ../gtk/rgpreferenceswindow.cc:65
+msgid "Default Upgrade"
+msgstr "預設升級"
+
+#: ../gtk/rgpreferenceswindow.cc:65
+msgid "Smart Upgrade"
+msgstr "智能升級"
+
+#: ../gtk/rgpreferenceswindow.cc:404 ../gtk/rgmainwindow.cc:1733
+#: ../gtk/rgterminstallprogress.cc:159
+msgid "An error occurred while saving configurations."
+msgstr "儲存設定時發生錯誤。"
+
+#: ../gtk/rgpreferenceswindow.cc:455 ../gtk/rgpreferenceswindow.cc:461
+msgid "Choose font"
+msgstr "選擇字型"
+
+#: ../gtk/rgpreferenceswindow.cc:923 ../gtk/rgpreferenceswindow.cc:927
+msgid "Color selection"
+msgstr "顏色選擇"
+
+#: ../gtk/rgpreferenceswindow.cc:1106
+msgid ""
+"Prefer package versions from the selected distribution when upgrading "
+"packages. If you manually force a version from a different distribution, the "
+"package version will follow that distribution until it enters the default "
+"distribution."
+msgstr ""
+"升級套件時偏好於安裝已選發行版的套件版本。如果強制安裝其他發行版的套件版本，"
+"套件版本會跟隨該發行版，直至其進入預設發行版。"
+
+#: ../gtk/rgpreferenceswindow.cc:1114
+msgid ""
+"Never upgrade to a new version automatically. Be _very_ careful with this "
+"option as you will not get security updates automatically! If you manually "
+"force a version the package version will follow the chosen distribution."
+msgstr ""
+"不自動更新版本。選擇此項時務必＊非常小心＊，因為此舉令您無法自動取得保安更"
+"新！如果強制指定一個版本，該套件的版本會跟隨發行版。"
+
+#: ../gtk/rgpreferenceswindow.cc:1122
+msgid "Let synaptic pick the best version for you. If unsure use this option. "
+msgstr "讓 synaptic 替您選擇最佳版本。如不確定請選此項。 "
+
+#: ../gtk/rgpreferenceswindow.cc:1157
+msgid "Visible"
+msgstr "可見"
+
+#: ../gtk/rgpreferenceswindow.cc:1239
+#: ../gtk/gtkbuilder/window_preferences.ui.h:1
+msgid "Preferences"
+msgstr "偏好設定"
+
+#: ../gtk/rgfetchprogress.cc:112 ../gtk/rgpkgtreeview.cc:78
+msgid "Package"
+msgstr "套件"
+
+#: ../gtk/rgfetchprogress.cc:119 ../gtk/rgrepositorywin.cc:189
+msgid "URI"
+msgstr "網址"
+
+#: ../gtk/rgfetchprogress.cc:208
+#, c-format
+msgid ""
+"Please insert the disk labeled:\n"
+"%s\n"
+"in drive %s"
+msgstr ""
+"請插入標籤為：:\n"
+"%s\n"
+"的磁碟到磁碟機  %s"
+
+#: ../gtk/rgfetchprogress.cc:350
+#, c-format
+msgid "Download rate: %s/s - %s remaining"
+msgstr "下載速度：%s/秒 - 還有 %s"
+
+#: ../gtk/rgfetchprogress.cc:356
+msgid "Download rate: ..."
+msgstr "下載速度：..."
+
+#: ../gtk/rgfetchprogress.cc:358
+#, c-format
+msgid "Downloading file %li of %li"
+msgstr "正在下載第 %li 個檔案（共 %li 個）"
+
+#: ../gtk/rgfetchprogress.cc:411
+msgid "Queued"
+msgstr "已佇列"
+
+#: ../gtk/rgfetchprogress.cc:414
+msgid "Done"
+msgstr "完成"
+
+#: ../gtk/rgfetchprogress.cc:417
+msgid "Hit"
+msgstr "已有"
+
+#: ../gtk/rgfetchprogress.cc:420
+msgid "Failed"
+msgstr "失敗"
+
+#: ../gtk/rgfiltermanager.cc:59 ../gtk/gtkbuilder/window_filters.ui.h:1
+msgid "Filters"
+msgstr "篩選"
+
+#: ../gtk/rgfiltermanager.cc:220
+msgid "Field"
+msgstr "欄位"
+
+#: ../gtk/rgfiltermanager.cc:227
+msgid "Operator"
+msgstr ""
+
+#: ../gtk/rgfiltermanager.cc:806
+#, c-format
+msgid "New Filter %i"
+msgstr "新增篩選 %i"
+
+#: ../gtk/rginstallprogress.cc:44
+#: ../gtk/gtkbuilder/window_rginstall_progress_msgs.ui.h:1
+msgid "Package Manager output"
+msgstr "套件管理員輸出"
+
+#: ../gtk/rginstallprogress.cc:94
+#, c-format
+msgid ""
+"\n"
+"While installing package %s:\n"
+"\n"
+msgstr ""
+"\n"
+"當正在安裝套件 %s：\n"
+"\n"
+
+#: ../gtk/rginstallprogress.cc:98
+#, c-format
+msgid ""
+"\n"
+"While preparing for installation:\n"
+"\n"
+msgstr ""
+"\n"
+"當正在準備安裝：\n"
+"\n"
+
+#: ../gtk/rginstallprogress.cc:140
+#, c-format
+msgid ""
+"APT system reports:\n"
+"%s"
+msgstr ""
+"APT 系統報告：\n"
+"%s"
+
+#: ../gtk/rglogview.cc:281
+msgid "Not found"
+msgstr "找不到"
+
+#: ../gtk/rglogview.cc:283
+msgid ""
+"Expression was found, please see the list on the left for matching entries."
+msgstr "已找到表示式，請在左邊清單檢視匹配項目。"
+
+#: ../gtk/rgpkgdetails.cc:144 ../gtk/gtkbuilder/window_about.ui.h:3
+#: ../gtk/gtkbuilder/window_setopt.ui.h:1
+#: ../gtk/gtkbuilder/window_rgdebinstall_progress.ui.h:5
+#: ../gtk/gtkbuilder/window_rginstall_progress_msgs.ui.h:3
+#: ../gtk/gtkbuilder/window_zvtinstallprogress.ui.h:1
+#: ../gtk/gtkbuilder/dialog_welcome.ui.h:2
+#: ../gtk/gtkbuilder/dialog_unmet.ui.h:1
+#: ../gtk/gtkbuilder/dialog_changelog.ui.h:1
+#: ../gtk/gtkbuilder/dialog_update_failed.ui.h:1
+#: ../gtk/gtkbuilder/window_iconlegend.ui.h:2
+#: ../gtk/gtkbuilder/window_details.ui.h:1
+#: ../gtk/gtkbuilder/dialog_download_error.ui.h:1
+#: ../gtk/gtkbuilder/window_logview.ui.h:2
+#: ../gtk/gtkbuilder/dialog_task_descr.ui.h:1
+msgid "_Close"
+msgstr ""
+
+#: ../gtk/rgpkgdetails.cc:220
+#, c-format
+msgid "%s Properties"
+msgstr "%s 屬性"
+
+#: ../gtk/rgpkgdetails.cc:297
+msgid "This application is supported by the distribution"
+msgstr "此應用軟件受該發行版支援"
+
+#: ../gtk/rgpkgdetails.cc:307
+msgid "Get Screenshot"
+msgstr "取得螢幕截圖"
+
+#: ../gtk/rgpkgdetails.cc:321
+msgid "Get Changelog"
+msgstr "取得更改記錄"
+
+#: ../gtk/rgpkgdetails.cc:333
+msgid "Visit Homepage"
+msgstr ""
+
+#. TRANSLATORS: this the format of the available versions in
+#. the "Properties/Available versions" window
+#. e.g. "0.56 (unstable)"
+#. "0.53.4 (testing)"
+#: ../gtk/rgpkgdetails.cc:386
+#, c-format
+msgid "%s (%s)"
+msgstr ""
+
+#. TRANSLATORS: Column header for the column "Status" in the package list
+#: ../gtk/rgpkgtreeview.cc:43
+msgid "S"
+msgstr "況"
+
+#: ../gtk/rgpkgtreeview.cc:206
+msgid "Download"
+msgstr "下載"
+
+#: ../gtk/rgmainwindow.cc:90
+msgid "Dependants"
+msgstr "依賴此套件的套件"
+
+#: ../gtk/rgmainwindow.cc:91
+msgid "Dependencies of the Latest Version"
+msgstr "依賴套件的最新版本"
+
+#: ../gtk/rgmainwindow.cc:92
+msgid "Provided Packages"
+msgstr "提供套件"
+
+#: ../gtk/rgmainwindow.cc:183
+msgid "All"
+msgstr "全部"
+
+#: ../gtk/rgmainwindow.cc:390
+msgid "No package is selected.\n"
+msgstr "未選取套件。\n"
+
+#: ../gtk/rgmainwindow.cc:556
+#, c-format
+msgid "Select the version of %s that should be forced for installation"
+msgstr "選擇要強制安裝 %s 的版本"
+
+#: ../gtk/rgmainwindow.cc:558
+msgid ""
+"The package manager always selects the most applicable version available. If "
+"you force a different version from the default one, errors in the dependency "
+"handling can occur."
+msgstr ""
+"套件管理員通常會選擇可使用的最適合版本。如果強制安裝不是預設的版本，在相依關"
+"係方面可能會出現問題。"
+
+#: ../gtk/rgmainwindow.cc:898
+msgid "Rebuilding search index"
+msgstr "重建搜尋索引"
+
+#: ../gtk/rgmainwindow.cc:920 ../gtk/gtkbuilder/window_main.ui.h:57
+msgid "Quick filter"
+msgstr "快速篩選"
+
+#: ../gtk/rgmainwindow.cc:1185
+msgid ""
+"Reload the package information to become informed about new, removed or "
+"upgraded software packages."
+msgstr "重新載入套件資訊以取得新的、已移除或已升級軟件套件的資料。"
+
+#: ../gtk/rgmainwindow.cc:1191
+msgid "Mark all possible upgrades"
+msgstr "標記所有可能的升級"
+
+#: ../gtk/rgmainwindow.cc:1195 ../gtk/gtkbuilder/window_summary.ui.h:4
+msgid "Apply all marked changes"
+msgstr "套用所有已標記的變更"
+
+#: ../gtk/rgmainwindow.cc:1199
+msgid "View package properties"
+msgstr "檢視套件屬性"
+
+#: ../gtk/rgmainwindow.cc:1203
+msgid "Search for packages"
+msgstr "搜尋套件"
+
+#: ../gtk/rgmainwindow.cc:1408
+msgid "Unmark"
+msgstr "取消標記"
+
+#: ../gtk/rgmainwindow.cc:1414
+msgid "Mark for Installation"
+msgstr "標記為安裝"
+
+#: ../gtk/rgmainwindow.cc:1420
+msgid "Mark for Reinstallation"
+msgstr "標記為重新安裝"
+
+#: ../gtk/rgmainwindow.cc:1427
+msgid "Mark for Upgrade"
+msgstr "標記為升級"
+
+#: ../gtk/rgmainwindow.cc:1433
+msgid "Mark for Removal"
+msgstr "標記為移除"
+
+#: ../gtk/rgmainwindow.cc:1440
+msgid "Mark for Complete Removal"
+msgstr "標記為徹底移除"
+
+#: ../gtk/rgmainwindow.cc:1450
+msgid "Remove Including Orphaned Dependencies"
+msgstr "移除包括「孤兒」的依賴套件"
+
+#: ../gtk/rgmainwindow.cc:1460
+msgid "Hold Current Version"
+msgstr "維持目前版本"
+
+#: ../gtk/rgmainwindow.cc:1469 ../gtk/gtkbuilder/window_main.ui.h:56
+#: ../gtk/gtkbuilder/window_filters.ui.h:58
+msgid "Properties"
+msgstr "屬性"
+
+#: ../gtk/rgmainwindow.cc:1479
+msgid "Mark Recommended for Installation"
+msgstr "標記安裝推薦套件"
+
+#: ../gtk/rgmainwindow.cc:1483
+msgid "Mark Suggested for Installation"
+msgstr "標記安裝建議套件"
+
+#: ../gtk/rgmainwindow.cc:1629
+#, c-format
+msgid ""
+"Removing package \"%s\" may render the system unusable.\n"
+"Are you sure you want to do that?"
+msgstr ""
+
+#: ../gtk/rgmainwindow.cc:1672
+#, c-format
+msgid ""
+"%i packages listed, %i installed, %i broken. %i to install/upgrade, %i to "
+"remove; %s will be freed"
+msgstr ""
+"列出了 %i 個套件、%i 個已安裝、%i 個安裝不完整。會安裝或升級 %i 個、會移除 "
+"%i 個；會釋放 %s 的空間"
+
+#: ../gtk/rgmainwindow.cc:1678
+#, c-format
+msgid ""
+"%i packages listed, %i installed, %i broken. %i to install/upgrade, %i to "
+"remove; %s will be used"
+msgstr ""
+"列出了 %i 個套件、%i 個已安裝、%i 個安裝不完整。會安裝或升級 %i 個、會移除 "
+"%i 個；會使用 %s 的空間"
+
+#: ../gtk/rgmainwindow.cc:1684
+#, c-format
+msgid ""
+"%i packages listed, %i installed, %i broken. %i to install/upgrade, %i to "
+"remove"
+msgstr ""
+"列出了 %i 個套件、%i 個已安裝、%i 個安裝不完整。會安裝或升級 %i 個、會移除 "
+"%i 個"
+
+#: ../gtk/rgmainwindow.cc:1750
+#, c-format
+msgid ""
+"You have %d broken package on your system!\n"
+"\n"
+"Use the \"Broken\" filter to locate it."
+msgid_plural ""
+"You have %i broken packages on your system!\n"
+"\n"
+"Use the \"Broken\" filter to locate them."
+msgstr[0] ""
+"系統中有 %d 個安裝不完整的套件！\n"
+"\n"
+"請以「安裝不完整」將其篩選出來。"
+
+#: ../gtk/rgmainwindow.cc:1988
+msgid "Do you want to add another CD-ROM?"
+msgstr "要加入其他光碟嗎？"
+
+#: ../gtk/rgmainwindow.cc:2025
+msgid "Open changes"
+msgstr "開啟變更"
+
+#: ../gtk/rgmainwindow.cc:2028 ../gtk/rgmainwindow.cc:2098
+#: ../gtk/rgmainwindow.cc:2234 ../gtk/rgmainwindow.cc:3380
+#: ../gtk/rgmainwindow.cc:3407 ../gtk/gtkbuilder/window_find.ui.h:1
+#: ../gtk/gtkbuilder/window_fetch.ui.h:2
+#: ../gtk/gtkbuilder/window_changes.ui.h:1
+#: ../gtk/gtkbuilder/window_preferences.ui.h:76
+#: ../gtk/gtkbuilder/window_disc_name.ui.h:4
+#: ../gtk/gtkbuilder/window_summary.ui.h:1
+#: ../gtk/gtkbuilder/window_filters.ui.h:2
+#: ../gtk/gtkbuilder/window_repositories.ui.h:10
+#: ../gtk/gtkbuilder/window_rgdebinstall_progress.ui.h:4
+#: ../gtk/gtkbuilder/window_tasks.ui.h:5
+#: ../gtk/gtkbuilder/dialog_update_outdated.ui.h:1
+#: ../gtk/gtkbuilder/dialog_quit.ui.h:1
+#: ../gtk/gtkbuilder/dialog_change_version.ui.h:1
+#: ../gtk/gtkbuilder/dialog_upgrade.ui.h:1
+#: ../gtk/gtkbuilder/dialog_authentication.ui.h:2
+#: ../gtk/gtkbuilder/dialog_disc_label.ui.h:1
+#: ../gtk/gtkbuilder/dialog_new_repositroy.ui.h:6
+#, fuzzy
+msgid "_Cancel"
+msgstr "取消"
+
+#: ../gtk/rgmainwindow.cc:2029 ../gtk/rgmainwindow.cc:3408
+msgid "_Open"
+msgstr ""
+
+#: ../gtk/rgmainwindow.cc:2076 ../gtk/rgmainwindow.cc:2673
+#: ../gtk/rgmainwindow.cc:2855 ../gtk/rgmainwindow.cc:3040
+#, c-format
+msgid "Can't write %s"
+msgstr "無法寫入 %s"
+
+#: ../gtk/rgmainwindow.cc:2095
+msgid "Save changes"
+msgstr "儲存變更"
+
+#: ../gtk/rgmainwindow.cc:2099 ../gtk/rgmainwindow.cc:3381
+msgid "_Save"
+msgstr ""
+
+#: ../gtk/rgmainwindow.cc:2102
+msgid "Save full state, not only changes"
+msgstr "儲存整個狀態，而非只是變更"
+
+#: ../gtk/rgmainwindow.cc:2219
+msgid "Repositories changed"
+msgstr "軟件庫已更改"
+
+#. TRANSLATORS: this message appears when the user added/removed
+#. a repository (sources.list entry) a reload (apt-get update) is
+#. needed then
+#: ../gtk/rgmainwindow.cc:2223
+msgid ""
+"The repository information has changed. You have to click on the \"Reload\" "
+"button for your changes to take effect"
+msgstr "軟件庫的資料已更改。要按下「重新載入」鈕使更改生效"
+
+#: ../gtk/rgmainwindow.cc:2234 ../gtk/gtkbuilder/dialog_update_outdated.ui.h:2
+msgid "_Reload"
+msgstr "重新載入(_R)"
+
+#: ../gtk/rgmainwindow.cc:2238
+msgid "Never show this message again"
+msgstr "不再顯示這訊息"
+
+#: ../gtk/rgmainwindow.cc:2311
+#, c-format
+msgid "Found %i packages"
+msgstr "找到 %i 個套件"
+
+#: ../gtk/rgmainwindow.cc:2352
+msgid "Starting help viewer..."
+msgstr "正在啟動說明文件瀏覽器..."
+
+#: ../gtk/rgmainwindow.cc:2364
+msgid ""
+"No help viewer is installed!\n"
+"\n"
+"You need either the GNOME help viewer 'yelp', the 'konqueror' browser or the "
+"'firefox' browser to view the synaptic manual.\n"
+"\n"
+"Alternatively you can open the man page with 'man synaptic' from the command "
+"line or view the html version located in the 'synaptic/html' folder."
+msgstr ""
+
+#: ../gtk/rgmainwindow.cc:2519
+msgid ""
+"Cannot start configuration tool!\n"
+"You have to install the required package 'libgnome2-perl'."
+msgstr ""
+"無法執行設置工具！\n"
+"要安裝所需的「libgnome2-perl」套件。"
+
+#: ../gtk/rgmainwindow.cc:2525
+msgid "Starting package configuration tool..."
+msgstr "正在啟動套件設置工具..."
+
+#. cout << "RGMainWindow::pkgHelpClicked()" << endl;
+#: ../gtk/rgmainwindow.cc:2546
+msgid "Starting package documentation viewer..."
+msgstr "正在啟動套件文件瀏覽器..."
+
+#: ../gtk/rgmainwindow.cc:2562
+msgid ""
+"You have to install the package \"dwww\" to browse the documentation of a "
+"package"
+msgstr "要安裝「dwww」來瀏覽套件的文件"
+
+#: ../gtk/rgmainwindow.cc:2637
+msgid ""
+"Could not apply changes!\n"
+"Fix broken packages first."
+msgstr ""
+"無法套用變更！\n"
+"請先修正套件安裝不完整的問題。"
+
+#: ../gtk/rgmainwindow.cc:2658
+msgid "Applying marked changes. This may take a while..."
+msgstr "正在套用已標記的變更。這需要一點時間...."
+
+#: ../gtk/rgmainwindow.cc:2662
+msgid "Downloading Package Files"
+msgstr "正在下載套件檔案"
+
+#: ../gtk/rgmainwindow.cc:2738
+msgid "Do you want to quit Synaptic?"
+msgstr "真的要結束 Synaptic？"
+
+#: ../gtk/rgmainwindow.cc:2840
+msgid "Downloading Package Information"
+msgstr "正在下載套件資訊"
+
+#: ../gtk/rgmainwindow.cc:2841
+msgid ""
+"The repositories will be checked for new, removed or upgraded software "
+"packages."
+msgstr "會檢查軟件庫有否新的、已移除或已升級的軟件套件。"
+
+#: ../gtk/rgmainwindow.cc:2844
+msgid "Reloading package information..."
+msgstr "正在重新載入套件資訊..."
+
+#: ../gtk/rgmainwindow.cc:2916
+msgid "Failed to resolve dependency problems!"
+msgstr "未能解決套件相依性問題！"
+
+#: ../gtk/rgmainwindow.cc:2918
+msgid "Successfully fixed dependency problems"
+msgstr "已成功修復套件相依性問題！"
+
+#: ../gtk/rgmainwindow.cc:2934
+msgid ""
+"Could not upgrade the system!\n"
+"Fix broken packages first."
+msgstr ""
+"系統無法升級！\n"
+"請先修正套件安裝不完整的問題。"
+
+#: ../gtk/rgmainwindow.cc:2984
+msgid "Marking all available upgrades..."
+msgstr "標記所有可以進行的升級..."
+
+#: ../gtk/rgmainwindow.cc:3001
+msgid "Successfully marked available upgrades"
+msgstr "已完成標記可以進行的升級"
+
+#: ../gtk/rgmainwindow.cc:3003
+msgid "Failed to mark all available upgrades!"
+msgstr "未能標記所有可以進行的升級！"
+
+#: ../gtk/rgmainwindow.cc:3377
+msgid "Save script"
+msgstr "儲存 script"
+
+#: ../gtk/rgmainwindow.cc:3404
+msgid "Select directory"
+msgstr "選擇目錄"
+
+#: ../gtk/rgmainwindow.cc:3416
+msgid "Please select a directory"
+msgstr "請選擇目錄"
+
+#: ../gtk/rgrepositorywin.cc:100
+msgid ""
+"You are adding the \"universe\" component.\n"
+"\n"
+" Packages in this component are not supported. Are you sure?"
+msgstr ""
+"您正要添加 \"universe\" 組件。\n"
+"\n"
+"此組件內的套件是沒有支援的，確定要這樣做嗎？"
+
+#: ../gtk/rgrepositorywin.cc:132 ../gtk/gtkbuilder/window_repositories.ui.h:1
+msgid "Repositories"
+msgstr "軟件庫"
+
+#: ../gtk/rgrepositorywin.cc:156
+msgid "Enabled"
+msgstr "啟用"
+
+#: ../gtk/rgrepositorywin.cc:166
+msgid "Type"
+msgstr "種類"
+
+#: ../gtk/rgrepositorywin.cc:176 ../gtk/rgvendorswindow.cc:63
+#: ../gtk/rgvendorswindow.cc:81
+msgid "Vendor"
+msgstr "生產商"
+
+#: ../gtk/rgrepositorywin.cc:199 ../gtk/gtkbuilder/window_preferences.ui.h:74
+msgid "Distribution"
+msgstr "發行版"
+
+#: ../gtk/rgrepositorywin.cc:210
+msgid "Section(s)"
+msgstr "組別"
+
+#: ../gtk/rgrepositorywin.cc:275
+msgid "Binary (deb)"
+msgstr ""
+
+#: ../gtk/rgrepositorywin.cc:281
+msgid "Source (deb-src)"
+msgstr "原始碼 (deb-src)"
+
+#: ../gtk/rgrepositorywin.cc:301 ../gtk/rgrepositorywin.cc:451
+msgid "(no vendor)"
+msgstr "(無生產商)"
+
+#: ../gtk/rgrepositorywin.cc:403
+msgid "Cannot read vendors.list file"
+msgstr "無法讀取 vendors.list 套件生產商清單檔"
+
+#: ../gtk/rgrepositorywin.cc:584
+msgid "Unknown source type"
+msgstr "套件來源種類不詳"
+
+#: ../gtk/rgsummarywindow.cc:108
+msgid "<b>(ESSENTIAL) to be removed</b>"
+msgstr "<b>會移除 (＊必要套件＊) </b>"
+
+#: ../gtk/rgsummarywindow.cc:122
+msgid "<b>To be DOWNGRADED</b>"
+msgstr "<b>會＊降級＊</b>"
+
+#: ../gtk/rgsummarywindow.cc:135
+msgid "<b>To be removed</b>"
+msgstr "<b>會移除</b>"
+
+#: ../gtk/rgsummarywindow.cc:148
+msgid "<b>To be completely removed (including configuration files)</b>"
+msgstr "<b>會撤底移除 (包括設定檔)</b>"
+
+#: ../gtk/rgsummarywindow.cc:200
+msgid "Unchanged"
+msgstr "不變"
+
+#: ../gtk/rgsummarywindow.cc:245
+#, c-format
+msgid "<b>%s</b> (<b>essential</b>) will be removed\n"
+msgstr "會移除 (<b>必要套件</b>) <b>%s</b>\n"
+
+#: ../gtk/rgsummarywindow.cc:254
+#, c-format
+msgid "<b>%s</b> will be <b>downgraded</b>\n"
+msgstr "<b>%s</b> 會<b>降級</b>\n"
+
+#: ../gtk/rgsummarywindow.cc:262
+#, c-format
+msgid "<b>%s</b> will be removed with configuration\n"
+msgstr "<b>%s</b> 會與設定檔一起移除\n"
+
+#: ../gtk/rgsummarywindow.cc:270
+#, c-format
+msgid "<b>%s</b> will be removed\n"
+msgstr "會移除 <b>%s</b>\n"
+
+#: ../gtk/rgsummarywindow.cc:279
+#, c-format
+msgid "<b>%s</b> (version <i>%s</i>) will be upgraded to version <i>%s</i>\n"
+msgstr "<b>%s</b> (<i>%s</i> 版) 會升級為 <i>%s</i> 版\n"
+
+#: ../gtk/rgsummarywindow.cc:290
+#, c-format
+msgid "<b>%s</b> (version <i>%s</i>) will be installed\n"
+msgstr "會安裝 <b>%s</b> (<i>%s</i> 版)\n"
+
+#: ../gtk/rgsummarywindow.cc:298
+#, c-format
+msgid "<b>%s</b> (version <i>%s</i>) will be re-installed\n"
+msgstr "會重新安裝 <b>%s</b> (<i>%s</i> 版)\n"
+
+#: ../gtk/rgsummarywindow.cc:320
+msgid "_Hide Details"
+msgstr "隱藏詳情(_H)"
+
+#: ../gtk/rgsummarywindow.cc:324 ../gtk/gtkbuilder/window_summary.ui.h:9
+msgid "_Show Details"
+msgstr "顯示詳情(_S)"
+
+#: ../gtk/rgsummarywindow.cc:337
+msgid "Summary"
+msgstr "摘要"
+
+#: ../gtk/rgsummarywindow.cc:398
+#, c-format
+msgid "%d package is locked\n"
+msgid_plural "%d packages are locked\n"
+msgstr[0] "已鎖定 %d 個套件\n"
+
+#: ../gtk/rgsummarywindow.cc:405
+#, c-format
+msgid "%d package will be held back and not upgraded\n"
+msgid_plural "%d packages will be held back and not upgraded\n"
+msgstr[0] "%d 個套件會維持原狀不升級\n"
+
+#: ../gtk/rgsummarywindow.cc:412
+#, c-format
+msgid "%d new package will be installed\n"
+msgid_plural "%d new packages will be installed\n"
+msgstr[0] "會安裝 %d 個新套件\n"
+
+#: ../gtk/rgsummarywindow.cc:419
+#, c-format
+msgid "%d new package will be re-installed\n"
+msgid_plural "%d new packages will be re-installed\n"
+msgstr[0] "會重新安裝 %d 個新套件\n"
+
+#: ../gtk/rgsummarywindow.cc:426
+#, c-format
+msgid "%d package will be upgraded\n"
+msgid_plural "%d packages will be upgraded\n"
+msgstr[0] "會升級 %d 個套件\n"
+
+#: ../gtk/rgsummarywindow.cc:433
+#, c-format
+msgid "%d package will be removed\n"
+msgid_plural "%d packages will be removed\n"
+msgstr[0] "會移除 %d 個套件\n"
+
+#: ../gtk/rgsummarywindow.cc:440
+#, c-format
+msgid "%d package will be <b>downgraded</b>\n"
+msgid_plural "%d packages will be <b>downgraded</b>\n"
+msgstr[0] "會<b>降級</b> %d 個套件\n"
+
+#: ../gtk/rgsummarywindow.cc:448
+#, c-format
+msgid "<b>Warning:</b> %d essential package will be removed\n"
+msgid_plural "<b>Warning:</b> %d essential packages will be removed\n"
+msgstr[0] "<b>警告：</b>會移除 %d 個必要套件\n"
+
+#: ../gtk/rgsummarywindow.cc:460
+#, c-format
+msgid "%s of extra space will be used"
+msgstr "會使用 %s 的額外空間"
+
+#: ../gtk/rgsummarywindow.cc:463
+#, c-format
+msgid "%s of extra space will be freed"
+msgstr "會釋放 %s 的額外空間"
+
+#: ../gtk/rgsummarywindow.cc:468
+#, c-format
+msgid ""
+"\n"
+"%s have to be downloaded"
+msgstr ""
+"\n"
+"要下載 %s"
+
+#: ../gtk/rgsummarywindow.cc:493
+msgid ""
+"Essential packages will be removed.\n"
+"This may render your system unusable!\n"
+msgstr ""
+"會移除必要套件。\n"
+"這樣會令系統不穩定！\n"
+
+#: ../gtk/rguserdialog.cc:79
+msgid "An error occurred"
+msgstr "發生錯誤"
+
+#: ../gtk/rguserdialog.cc:80
+msgid "The following details are provided:"
+msgstr "提供了以下詳情："
+
+#: ../gtk/rgvendorswindow.cc:40
+msgid "Setup Vendors"
+msgstr "設定生產商"
+
+#: ../gtk/rgvendorswindow.cc:63 ../gtk/rgvendorswindow.cc:108
+msgid "FingerPrint"
+msgstr ""
+
+#: ../gtk/rgvendorswindow.cc:129
+msgid "OK"
+msgstr "確定"
+
+#: ../gtk/rgvendorswindow.cc:133
+msgid "Add"
+msgstr "新增"
+
+#: ../gtk/rgvendorswindow.cc:137
+msgid "Remove"
+msgstr "移除"
+
+#: ../gtk/rgvendorswindow.cc:141
+msgid "Cancel"
+msgstr "取消"
+
+#. TRANSLATORS: this is a abbreviation for "not applicable" (on forms)
+#. happens when e.g. a package has no installed version (or no
+#. downloadable version)
+#: ../gtk/rggtkbuilderwindow.cc:120 ../gtk/rggtkbuilderwindow.cc:136
+#: ../gtk/rggtkbuilderwindow.cc:154 ../gtk/rggtkbuilderwindow.cc:217
+msgid "N/A"
+msgstr "不適用"
+
+#: ../gtk/rgfindwindow.cc:146
+msgid "Find"
+msgstr "尋找"
+
+#. TRANSLATORS: Title of the task window - %s is the task (e.g. "desktop" or "mail server")
+#: ../gtk/rgtaskswin.cc:141
+#, c-format
+msgid "Description %s"
+msgstr "%s 描述"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:1
+msgid "Synaptic"
+msgstr "Synaptic「新立得」"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:2
+msgid "_File"
+msgstr "檔案(_F)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:3
+msgid "_Read Markings..."
+msgstr "讀取標記(_R)..."
+
+#: ../gtk/gtkbuilder/window_main.ui.h:4
+msgid "_Save Markings"
+msgstr "儲存標記(_S)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:5
+msgid "Save Markings _As..."
+msgstr "另存標記為(_A)..."
+
+#: ../gtk/gtkbuilder/window_main.ui.h:6
+msgid ""
+"Generate a shell script so that you can download the selected packages on a "
+"different computer"
+msgstr "產生 shell script，讓您可以在其他電腦下載所選套件"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:7
+msgid "Generate package download script"
+msgstr "產生下載套件 script"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:8
+msgid ""
+"Add packages downloaded with the \"Generate package download script\" "
+"feature to the system"
+msgstr "為系統加入以「產生下載套件 script」功能下載的套件"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:9
+msgid "Add downloaded packages"
+msgstr "加入已下載的套件"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:10
+msgid "_History"
+msgstr "歷史記錄(_H)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:11 ../gtk/gtkbuilder/dialog_quit.ui.h:2
+msgid "_Quit"
+msgstr "結束(_Q)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:12
+msgid "_Edit"
+msgstr "編輯(_E)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:13
+msgid "_Undo"
+msgstr ""
+
+#: ../gtk/gtkbuilder/window_main.ui.h:14
+msgid "_Redo"
+msgstr ""
+
+#: ../gtk/gtkbuilder/window_main.ui.h:15
+msgid "U_nmark All"
+msgstr "移除所有標記(_N)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:16
+msgid "_Search..."
+msgstr "搜尋(_S)..."
+
+#: ../gtk/gtkbuilder/window_main.ui.h:17
+msgid "_Reload Package Information"
+msgstr "重新載入套件資訊(_R)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:18
+msgid "_Add CD-ROM..."
+msgstr "加入光碟(_A)..."
+
+#: ../gtk/gtkbuilder/window_main.ui.h:19
+msgid "_Mark All Upgrades..."
+msgstr "標記所有升級(_M)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:20
+msgid "_Fix Broken Packages"
+msgstr "修復安裝不完整的套件(_F)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:21
+msgid "Mark Packages by _Task..."
+msgstr "根據任務標記套件(_T)..."
+
+#: ../gtk/gtkbuilder/window_main.ui.h:22
+msgid "A_pply Marked Changes"
+msgstr "套用已標記變更(_P)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:23
+msgid "_Package"
+msgstr "套件(_P)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:24
+msgid "U_nmark"
+msgstr "移除標記(_N)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:25
+msgid "Mark for _Installation"
+msgstr "標記為安裝(_I)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:26
+msgid "Mark for R_einstallation"
+msgstr "標記為重新安裝(_E)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:27
+msgid "Mark for _Upgrade"
+msgstr "標記為升級(_U)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:28
+msgid "Mark for _Removal"
+msgstr "標記為移除(_R)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:29
+msgid "Mark for Co_mplete Removal"
+msgstr "標記為徹底移除(_M)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:30
+msgid "_Lock Version"
+msgstr "鎖定版本(_L)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:31
+msgid "Automatically installed"
+msgstr "已自動安裝"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:32
+msgid "_Force Version..."
+msgstr "強制版本(_F)..."
+
+#: ../gtk/gtkbuilder/window_main.ui.h:33
+msgid "_Configure..."
+msgstr "設定(_C)…"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:34
+msgid "_Browse Documentation"
+msgstr "瀏覽文件(_B)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:35
+msgid "_Download Changelog"
+msgstr "下載更改記錄(_D)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:36
+msgid "_Properties"
+msgstr "屬性(_P)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:37
+msgid "_Settings"
+msgstr "設定(_S)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:38
+#, fuzzy
+msgid "_Preferences"
+msgstr "偏好設定"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:39
+msgid "_Repositories"
+msgstr "軟件庫(_R)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:40
+msgid "_Filters"
+msgstr "篩選(_F)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:41
+msgid "_Set Internal Option..."
+msgstr "設定內部選項(_S)..."
+
+#: ../gtk/gtkbuilder/window_main.ui.h:42
+msgid "_Toolbar"
+msgstr "工具列(_T)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:43
+msgid "_Icons Only"
+msgstr "僅圖示(_I)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:44
+msgid "_Text Only"
+msgstr "僅文字(_T)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:45
+msgid "Text _Below Icons"
+msgstr "文字在圖示下(_B)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:46
+msgid "Text Be_side Icons"
+msgstr "文字在圖示旁(_S)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:47
+msgid "_Hide"
+msgstr "隱藏(_H)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:48
+#: ../gtk/gtkbuilder/dialog_new_repositroy.ui.h:5
+msgid "_Help"
+msgstr "求助(_H)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:49
+msgid "_Contents"
+msgstr "目錄(_C)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:50
+msgid "_Quick Introduction"
+msgstr "簡介(_Q)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:51
+msgid "Icon _Legend"
+msgstr "圖示說明(_L)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:52
+msgid "_About"
+msgstr ""
+
+#: ../gtk/gtkbuilder/window_main.ui.h:53
+msgid "Reload"
+msgstr "重新載入"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:54
+msgid "Mark All Upgrades"
+msgstr "標記所有升級"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:55
+msgid "Apply"
+msgstr "套用"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:58
+msgid "Search"
+msgstr "搜尋"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:59
+msgid "_Sections"
+msgstr "組別(_S)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:60
+msgid "S_earch Results"
+msgstr "搜尋結果(_E)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:61
+msgid "S_tatus"
+msgstr "狀態(_T)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:62
+msgid "_Custom Filters"
+msgstr "自訂篩選(_C)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:64
+msgid "_Architecture"
+msgstr "架構(_A)"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:66
+#: ../gtk/gtkbuilder/window_details.ui.h:2
+msgid "<b>Package:</b>"
+msgstr "<b>套件：</b>"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:67
+#: ../gtk/gtkbuilder/window_details.ui.h:3
+msgid "<b>Section:</b>"
+msgstr "<b>組別：</b>"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:68
+#: ../gtk/gtkbuilder/window_details.ui.h:4
+msgid "<b>Priority:</b>"
+msgstr "<b>優先等級：</b>"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:69
+#: ../gtk/gtkbuilder/window_details.ui.h:5
+msgid "<b>Maintainer:</b>"
+msgstr "<b>維護者：</b>"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:70
+#: ../gtk/gtkbuilder/window_details.ui.h:6
+msgid "<b>Status:</b>"
+msgstr "<b>狀態：</b>"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:71
+#: ../gtk/gtkbuilder/window_details.ui.h:7
+msgid "<b>Tags:</b>"
+msgstr "<b>標記：</b>"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:72
+#: ../gtk/gtkbuilder/window_details.ui.h:8
+msgid "<b>Source:</b>"
+msgstr ""
+
+#: ../gtk/gtkbuilder/window_main.ui.h:73
+#: ../gtk/gtkbuilder/window_details.ui.h:9
+msgid "<b>Installed Version</b>"
+msgstr "<b>已安裝版本</b>"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:74
+#: ../gtk/gtkbuilder/window_preferences.ui.h:3
+#: ../gtk/gtkbuilder/window_summary.ui.h:8
+#: ../gtk/gtkbuilder/window_filters.ui.h:9
+#: ../gtk/gtkbuilder/window_details.ui.h:10
+msgid "    "
+msgstr "    "
+
+#: ../gtk/gtkbuilder/window_main.ui.h:75
+#: ../gtk/gtkbuilder/window_details.ui.h:11
+msgid "Size:"
+msgstr "大小："
+
+#: ../gtk/gtkbuilder/window_main.ui.h:76
+#: ../gtk/gtkbuilder/window_details.ui.h:12
+msgid "Version:"
+msgstr "版本："
+
+#: ../gtk/gtkbuilder/window_main.ui.h:77
+#: ../gtk/gtkbuilder/window_details.ui.h:13
+msgid "<b>Latest Available Version</b>"
+msgstr "<b>可提供最新版本</b>"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:78
+#: ../gtk/gtkbuilder/window_details.ui.h:14
+msgid "Download:"
+msgstr "下載："
+
+#: ../gtk/gtkbuilder/window_main.ui.h:79
+#: ../gtk/gtkbuilder/window_details.ui.h:15
+msgid "Common"
+msgstr ""
+
+#: ../gtk/gtkbuilder/window_main.ui.h:81
+#: ../gtk/gtkbuilder/window_details.ui.h:17
+msgid "Installed Files"
+msgstr "已安裝檔案"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:82
+#: ../gtk/gtkbuilder/window_details.ui.h:18
+msgid "Available versions:"
+msgstr "可提供版本："
+
+#: ../gtk/gtkbuilder/window_main.ui.h:83
+#: ../gtk/gtkbuilder/window_details.ui.h:19
+msgid ""
+"<b>Note:</b> To install a version that is different from the default one, "
+"choose <b>Package -> Force Version...</b> from the menu."
+msgstr ""
+"<b>注意：</b>更安裝與預設不同的版本，請在選單選取<b>套件 → 強制版本...</b>。"
+
+#: ../gtk/gtkbuilder/window_main.ui.h:84
+#: ../gtk/gtkbuilder/window_details.ui.h:20
+msgid "Versions"
+msgstr "版本"
+
+#: ../gtk/gtkbuilder/window_about.ui.h:4
+msgid "<span size=\"xx-large\" weight=\"bold\">Synaptic version</span>"
+msgstr "<span size=\"xx-large\" weight=\"bold\">Synaptic 版本</span>"
+
+#: ../gtk/gtkbuilder/window_about.ui.h:5
+msgid "Package management software using apt."
+msgstr "使用 apt 的套件管理軟件。"
+
+#: ../gtk/gtkbuilder/window_about.ui.h:6
+msgid "Debtag support is enabled."
+msgstr "已啟用 Debtag 支援。"
+
+#: ../gtk/gtkbuilder/window_about.ui.h:7
+msgid ""
+"Visit the home page at \n"
+"http://www.nongnu.org/synaptic/"
+msgstr ""
+"瀏覽我們的網頁：\n"
+"http://www.nongnu.org/synaptic/"
+
+#: ../gtk/gtkbuilder/window_about.ui.h:9
+msgid ""
+"This software is licensed under the terms of the GNU General Public License, "
+"Version 2"
+msgstr "本軟件是以 GNU 通用公共許可證 (第二版) 的條款發行。"
+
+#: ../gtk/gtkbuilder/window_about.ui.h:10
+msgid ""
+"<span size=\"small\">Copyright (c) 2001-2004 Connectiva S/A \n"
+"Copyright (c) 2002-2012 Michael Vogt</span>"
+msgstr ""
+"<span size=\"small\">版權所有 (c) 2001-2004 Connectiva S/A \n"
+"版權所有 (c) 2002-2012 Michael Vogt</span>"
+
+#: ../gtk/gtkbuilder/window_about.ui.h:12
+msgid ""
+"Original author:\n"
+"Alfredo K. Kojima <kojima@windowmaker.org>\n"
+"\n"
+"Maintainers:\n"
+"Michael Vogt <mvo@debian.org>\n"
+"Gustavo Niemeyer <niemeyer@conectiva.com>\n"
+"Sebastian Heinlein <sebastian.heinlein@web.de>\n"
+"\n"
+"Contributors:\n"
+"Enrico Zini <enrico@debian.org>\n"
+"Panu Matilainen <pmatilai@welho.com>\n"
+"Sviatoslav Sviridov <svd@lintec.minsk.by>"
+msgstr ""
+"原作者：\n"
+"Alfredo K. Kojima <kojima@windowmaker.org>\n"
+"\n"
+"維護者：\n"
+"Michael Vogt <mvo@debian.org>\n"
+"Gustavo Niemeyer <niemeyer@conectiva.com>\n"
+"Sebastian Heinlein <sebastian.heinlein@web.de>\n"
+"\n"
+"貢獻者：\n"
+"Enrico Zini <enrico@debian.org>\n"
+"Panu Matilainen <pmatilai@welho.com>\n"
+"Sviatoslav Sviridov <svd@lintec.minsk.by>"
+
+#: ../gtk/gtkbuilder/window_about.ui.h:24
+msgid "Written by"
+msgstr "程式編寫："
+
+#: ../gtk/gtkbuilder/window_about.ui.h:25
+msgid "translators-credits"
+msgstr ""
+"i18n 程式中文化計劃\r\n"
+"\r\n"
+"http://i18n.linux.org.tw/\r\n"
+"Anthony Fok <anthony@thizlinux.com>, 2002-03\r\n"
+"Woodman Tuen <wmtuen@gmail.com>, 2005\r\n"
+"Walter Cheuk <wwycheuk@gmail.com>, 2012"
+
+#: ../gtk/gtkbuilder/window_about.ui.h:26
+msgid "Translated by"
+msgstr "翻譯："
+
+#: ../gtk/gtkbuilder/window_about.ui.h:27
+msgid ""
+"Man page:\n"
+"Wybo Dekker <wybo@servalys.nl>\n"
+"Michael Vogt <mvo@debian.org>\n"
+"Sebastian Heinlein <sebastian.heinlein@web.de>\n"
+"\n"
+"Manual:\n"
+"Sebastian Heinlein <sebastian.heinlein@web.de>"
+msgstr ""
+"Man page：\n"
+"Wybo Dekker <wybo@servalys.nl>\n"
+"Michael Vogt <mvo@debian.org>\n"
+"Sebastian Heinlein <sebastian.heinlein@web.de>\n"
+"\n"
+"使用手冊：\n"
+"Sebastian Heinlein <sebastian.heinlein@web.de>"
+
+#: ../gtk/gtkbuilder/window_about.ui.h:34
+msgid "Documented by"
+msgstr "文件編寫："
+
+#: ../gtk/gtkbuilder/window_find.ui.h:2
+msgid "_Search"
+msgstr "搜尋(_S)"
+
+#: ../gtk/gtkbuilder/window_find.ui.h:3
+msgid "Search:"
+msgstr "搜尋："
+
+#: ../gtk/gtkbuilder/window_find.ui.h:4
+msgid "Look in:"
+msgstr "搜尋於："
+
+#: ../gtk/gtkbuilder/window_fetch.ui.h:1
+msgid "Show individual files"
+msgstr ""
+
+#: ../gtk/gtkbuilder/window_changes.ui.h:2
+msgid "_Mark"
+msgstr "標記(_M)"
+
+#: ../gtk/gtkbuilder/window_changes.ui.h:3
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Mark additional required changes?</"
+"span>"
+msgstr "<span weight=\"bold\" size=\"larger\">是否標記其他需要的變更？</span>"
+
+#: ../gtk/gtkbuilder/window_changes.ui.h:4
+msgid ""
+"The chosen action also affects other packages. The following changes are "
+"required in order to proceed."
+msgstr "所選行動會影響其他套件。如要繼續需要有以下變更。"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:2
+msgid "<b>Appearance</b>"
+msgstr "<b>外觀</b>"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:4
+msgid "Show package properties in the main window"
+msgstr "在主視窗顯示套件屬性"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:5
+msgid "<b>Marking Changes</b>"
+msgstr "<b>標記變更</b>"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:6
+msgid "Ask to confirm changes that also affect other packages"
+msgstr "當變更影響其他套件時要求確認"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:7
+msgid "Consider recommended packages as dependencies"
+msgstr "以推薦套件為依賴的套件"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:8
+msgid "Clicking on the status icon marks the most likely action"
+msgstr "點擊狀態圖示來標記要進行的行動"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:9
+msgid "Removal of packages:"
+msgstr "移除的套件："
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:10
+msgid "System upgrade:"
+msgstr "系統升級："
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:11
+msgid "Number of undo operations:"
+msgstr "復原次數："
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:12
+#: ../gtk/gtkbuilder/window_summary.ui.h:10
+#: ../gtk/gtkbuilder/window_filters.ui.h:4
+msgid " "
+msgstr " "
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:13
+msgid "Reloading outdated package information:"
+msgstr "載入過時套件資訊："
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:14
+msgid "<b>Applying Changes</b>"
+msgstr "<b>套用變更</b>"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:15
+msgid "Apply changes in a terminal window"
+msgstr "在終端機視窗套用變更"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:16
+msgid "Ask to quit after the changes have been applied successfully"
+msgstr "完成套用變更後詢問是否結束"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:17
+msgid "General"
+msgstr "一般"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:18
+msgid "<b>Columns</b>"
+msgstr "<b>欄位</b>"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:19
+msgid "Move _Up"
+msgstr "上移(_U)"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:20
+msgid "Move D_own"
+msgstr "下移(_O)"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:21
+msgid "<b>Fonts</b>"
+msgstr "<b>字型</b>"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:22
+msgid "Use custom application font"
+msgstr "使用自訂程式字型"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:23
+msgid "Use custom terminal font"
+msgstr "使用自訂終端機字型"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:24
+msgid "A_pplication Font"
+msgstr "程式字型(_P)"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:25
+msgid "_Terminal Font"
+msgstr "終端機字型(_T)"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:26
+msgid "Columns and Fonts"
+msgstr "欄位及字型"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:27
+msgid "<b>Colors</b>"
+msgstr "<b>色彩</b>"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:28
+msgid "Color packages by their status"
+msgstr "按狀態為套件著色"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:29
+msgid "Marked for installation:"
+msgstr "已標記為安裝："
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:30
+msgid "Color"
+msgstr "色彩"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:31
+msgid "Marked for removal:"
+msgstr "已標記為移除："
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:32
+msgid "Marked for complete removal:"
+msgstr "已標記為徹底移除："
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:33
+msgid "Upgradable:"
+msgstr "可升級："
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:34
+msgid "Marked for reinstallation:"
+msgstr "已標記為重新安裝："
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:35
+msgid "Marked for upgrade:"
+msgstr "已標記為升級："
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:36
+msgid "Not installed:"
+msgstr "未安裝："
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:37
+msgid "Not installed (locked):"
+msgstr "未安裝 (已鎖定)："
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:38
+msgid "Installed (locked):"
+msgstr "已安裝 (已鎖定)："
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:39
+msgid "Installed:"
+msgstr "已安裝："
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:40
+msgid "New in repository:"
+msgstr "軟件庫新套件："
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:41
+msgid "Marked for downgrade:"
+msgstr "已標記為降級："
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:42
+msgid "Broken:"
+msgstr "安裝不完整："
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:43
+msgid "Colors"
+msgstr "色彩"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:44
+msgid "<b>Temporary Files</b>"
+msgstr "<b>暫存檔</b>"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:45
+msgid "_Leave all downloaded packages in the cache"
+msgstr "把下載的套件留在快取(_L)"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:46
+msgid "_Delete downloaded packages after installation"
+msgstr "安裝後刪除下載的套件(_D)"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:47
+msgid "_Only delete packages which are no longer available"
+msgstr "只刪除已不再提供的套件(_O)"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:48
+msgid "_Delete Cached Package Files"
+msgstr "刪除套件快取檔(_D)"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:49
+msgid "Delete all cache package files now."
+msgstr "立刻刪除所有套件快取檔。"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:50
+msgid "<b>History files</b>"
+msgstr "<b>歷史檔案</b>"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:51
+msgid "_Keep history"
+msgstr "保留歷史記錄(_K)"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:52
+msgid "Delete _History files older than:"
+msgstr "刪除歷史檔案，如其舊於(_H)："
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:53
+msgid "days"
+msgstr "天"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:54
+msgid "Files"
+msgstr "檔案"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:55
+msgid "<b>Proxy Server</b>"
+msgstr "<b>代理伺服器</b>"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:56
+msgid "Direct connection to the Internet"
+msgstr "直接連接互聯網"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:57
+msgid "Manual proxy configuration"
+msgstr "手動代理伺服器設定"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:58
+msgid "IP address or host name of the http proxy server"
+msgstr "http 代理伺服器的 IP 地址或主機名稱"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:59
+msgid "Port: "
+msgstr "連接埠： "
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:60
+msgid "Port number of the http proxy server"
+msgstr "http 代理伺服器的連接埠號碼"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:61
+msgid "IP address or host name of the ftp proxy server"
+msgstr "ftp 代理伺服器的 IP 地址或主機名稱"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:62
+msgid "Port number of the ftp proxy server"
+msgstr "ftp 代理伺服器的連接埠號碼"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:63
+msgid "No proxy for: "
+msgstr "不使用代理伺服器： "
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:64
+msgid "FTP proxy: "
+msgstr "FTP 代理伺服器： "
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:65
+msgid "HTTP proxy: "
+msgstr "HTTP 代理伺服器： "
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:66
+msgid ""
+"Comma separated list of hosts and domains that will not be contacted through "
+"the proxy (e.g. localhost, 192.168.1.231, .net)"
+msgstr ""
+"以逗號(,)分隔開那些不會以代理伺服器連接的主機及網域（如：localhost, "
+"192.168.1.231, .net)"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:67
+msgid "Authentication"
+msgstr "身分驗證"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:68
+msgid "Network"
+msgstr "網絡"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:69
+msgid ""
+"<span size=\"large\" weight=\"bold\">These settings affect the core of your "
+"system. Consider any changes carefully.</span>"
+msgstr ""
+"<span size=\"large\" weight=\"bold\">這些設定會影響系統核心部份。作任何變更前"
+"請小心考慮。</span>"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:70
+msgid "<b>Package upgrade behavior (default distribution)</b>"
+msgstr "<b>套件升級行為 (預設發行版)</b>"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:71
+msgid "Always prefer the highest version"
+msgstr "選擇最高的版本"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:72
+msgid "Always prefer the installed version"
+msgstr "選擇已安裝版本"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:73
+msgid "Prefer versions from: "
+msgstr "選擇來自以下地方的版本： "
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:75
+#: ../gtk/gtkbuilder/window_setopt.ui.h:2
+#: ../gtk/gtkbuilder/window_summary.ui.h:3
+#, fuzzy
+msgid "_Apply"
+msgstr "套用"
+
+#: ../gtk/gtkbuilder/window_preferences.ui.h:77
+#: ../gtk/gtkbuilder/window_disc_name.ui.h:5
+#: ../gtk/gtkbuilder/window_filters.ui.h:3
+#: ../gtk/gtkbuilder/window_repositories.ui.h:11
+#: ../gtk/gtkbuilder/window_tasks.ui.h:6
+#: ../gtk/gtkbuilder/dialog_authentication.ui.h:3
+#, fuzzy
+msgid "_OK"
+msgstr "確定"
+
+#: ../gtk/gtkbuilder/window_disc_name.ui.h:1
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Enter the label of the CD-ROM</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">輸入光碟標籤</span>"
+
+#: ../gtk/gtkbuilder/window_disc_name.ui.h:2
+msgid ""
+"The label will be used to identify the CD-ROM if you want to install "
+"packages from it later."
+msgstr "如想稍後以光碟安裝套件，標籤會用作識別光碟。"
+
+#: ../gtk/gtkbuilder/window_disc_name.ui.h:3
+msgid "Disc label:"
+msgstr "光碟標籤："
+
+#: ../gtk/gtkbuilder/window_setopt.ui.h:3
+msgid "<span size=\"large\" weight=\"bold\">Set an internal option</span>"
+msgstr "<span size=\"large\" weight=\"bold\">設定內部選項</span>"
+
+#: ../gtk/gtkbuilder/window_setopt.ui.h:4
+msgid "Only experts should use this."
+msgstr "只有專家才使用這功能。"
+
+#: ../gtk/gtkbuilder/window_setopt.ui.h:5
+msgid "Value:"
+msgstr "值:"
+
+#: ../gtk/gtkbuilder/window_setopt.ui.h:6
+msgid "Variable:"
+msgstr "變數："
+
+#: ../gtk/gtkbuilder/window_summary.ui.h:2
+msgid "Return to the main screen"
+msgstr "返回主畫面"
+
+#: ../gtk/gtkbuilder/window_summary.ui.h:5
+msgid ""
+"<span weight=\"bold\" size=\"large\">Apply the following changes?</span>"
+msgstr "<span weight=\"bold\" size=\"large\">是否套用以下變更？</span>"
+
+#: ../gtk/gtkbuilder/window_summary.ui.h:6
+msgid ""
+"This is your last opportunity to look through the list of marked changes "
+"before they are applied."
+msgstr "這是套用變更前最後一次機會讓您檢查所有標記。"
+
+#: ../gtk/gtkbuilder/window_summary.ui.h:7
+msgid "<b>Summary</b>"
+msgstr "<b>摘要</b>"
+
+#: ../gtk/gtkbuilder/window_summary.ui.h:11
+msgid "_Download package files only"
+msgstr "僅下載套件檔案(_D)"
+
+#: ../gtk/gtkbuilder/window_summary.ui.h:12
+msgid "The package files will be downloaded, but not installed"
+msgstr "會下載套件檔案，但不安裝"
+
+#: ../gtk/gtkbuilder/window_summary.ui.h:13
+msgid "_Verify package signatures"
+msgstr "查證套件數碼簽章(_V)"
+
+#: ../gtk/gtkbuilder/window_summary.ui.h:14
+msgid ""
+"Vendors sign their packages to verify the origin and integrity of the "
+"packages. Disabling the verification is a security risk."
+msgstr ""
+"生產商為其套件簽章是讓用戶可以查證其來源及完整性。停用查證會有安全風險。"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:5
+#: ../gtk/gtkbuilder/window_repositories.ui.h:8
+msgid "_New"
+msgstr ""
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:6
+#: ../gtk/gtkbuilder/window_repositories.ui.h:9
+msgid "_Delete"
+msgstr ""
+
+#. TRANSLATORS: this is a label embedded in the "Status" notebook tab, so it describes the "Current [status]"
+#: ../gtk/gtkbuilder/window_filters.ui.h:8
+msgid "<b>Current</b>"
+msgstr "<b>目前</b>"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:11
+msgid "Installed packages that are up-to-date"
+msgstr "最新的已安裝套件"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:12
+msgid "Upgradable"
+msgstr "可升級"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:13
+msgid "Installed packages that are upgradable"
+msgstr "可以升級的已安裝套件"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:15
+msgid "Installed packages that are upgradable to a later upstream version"
+msgstr "可以升級為較新上游版本的已安裝套件"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:16
+msgid "Residual config"
+msgstr "遺留的設定"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:17
+msgid "Removed packages that have left configuration files on the system"
+msgstr "在系統遺留設定檔的已移除套件"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:19
+msgid "Not installed packages"
+msgstr "未安裝的套件"
+
+#. TRANSLATORS: this is a label embedded in the "Status" notebook tab, so it describes the "Marked [status]"
+#: ../gtk/gtkbuilder/window_filters.ui.h:21
+msgid "<b>Marked</b>"
+msgstr "<b>已標記</b>"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:22
+msgid "Not marked"
+msgstr "不標記"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:23
+msgid "Packages that won't be changed"
+msgstr "不會變更的套件"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:24
+msgid "For installation or upgrade"
+msgstr "會安裝或升級"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:25
+msgid "Packages that will be installed or upgraded"
+msgstr "會安裝或升級的套件"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:26
+msgid "For removal"
+msgstr "會移除"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:27
+msgid "Packages that will be removed"
+msgstr "會移除的套件"
+
+#. TRANSLATORS: this is a label embedded in the "Status" notebook tab, so it describes the "Other [status]"
+#: ../gtk/gtkbuilder/window_filters.ui.h:29
+msgid "<b>Other</b>"
+msgstr "<b>其他</b>"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:31
+msgid "Packages that are new in the repository since that last \"Reload\""
+msgstr "最後一次「重新載入」之後軟件庫新的套件"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:33
+msgid "Packages that will never be upgraded"
+msgstr "永遠不會升級的套件"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:34
+msgid "Orphaned"
+msgstr "再無人維護的「孤兒」套件"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:35
+msgid "Library packages that are no longer needed (deborphan is required)"
+msgstr "已不使用的函式庫套件 (要安裝 deborphan)"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:36
+msgid "Not installable"
+msgstr "不能安裝的"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:37
+msgid "Packages that are not available in any repository"
+msgstr "無軟件庫提供的套件"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:39
+msgid "Packages with broken dependencies"
+msgstr "安裝不完整的套件"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:40
+msgid "Automatic install"
+msgstr "自動安裝"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:41
+msgid "Packages installed automatically as part of a dependency"
+msgstr ""
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:42
+msgid "Automatic removable"
+msgstr "可自動移除"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:43
+msgid ""
+"Packages installed automatically but no longer required by any other package"
+msgstr ""
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:44
+msgid "Policy broken"
+msgstr "系統原則損壞"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:45
+msgid "Currently in broken policy state"
+msgstr "目前狀態：系統原則損壞"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:46
+msgid "Manual installed"
+msgstr "已經安裝使用手冊"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:47
+msgid "Packages installed manually (not as a dependency of something else)"
+msgstr ""
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:48
+msgid "_Select All"
+msgstr "全選(_S)"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:49
+msgid "_Deselect All"
+msgstr "全不選(_D)"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:50
+msgid "_Invert All"
+msgstr "反向選取(_I)"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:52
+msgid "Include selected sections only"
+msgstr "只包括所選組別"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:53
+msgid "Exclude selected sections"
+msgstr "不包括所選組別"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:55
+msgid "Boolean operator between property criterias:"
+msgstr ""
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:56
+msgid "AND"
+msgstr ""
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:57
+msgid "OR"
+msgstr ""
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:59
+msgid "Include"
+msgstr "包括"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:60
+msgid "Exclude"
+msgstr "不包括"
+
+#: ../gtk/gtkbuilder/window_filters.ui.h:61
+msgid "Tags"
+msgstr "標記"
+
+#: ../gtk/gtkbuilder/window_repositories.ui.h:2
+msgid "_Up"
+msgstr ""
+
+#: ../gtk/gtkbuilder/window_repositories.ui.h:3
+#, fuzzy
+msgid "_Down"
+msgstr "下載"
+
+#: ../gtk/gtkbuilder/window_repositories.ui.h:4
+msgid "URI:"
+msgstr "URI："
+
+#: ../gtk/gtkbuilder/window_repositories.ui.h:5
+msgid "Distribution:"
+msgstr "發行版："
+
+#: ../gtk/gtkbuilder/window_repositories.ui.h:6
+msgid "Section(s):"
+msgstr "組別："
+
+#: ../gtk/gtkbuilder/window_repositories.ui.h:7
+msgid "Vendors..."
+msgstr "生產商..."
+
+#: ../gtk/gtkbuilder/window_rgdebinstall_progress.ui.h:1
+msgid "<i>Preparing packages...</i>"
+msgstr "<i>正在準備套件...</i>"
+
+#: ../gtk/gtkbuilder/window_rgdebinstall_progress.ui.h:2
+msgid "Automatically close after the changes have been successfully applied"
+msgstr "套用變更後自動關閉"
+
+#: ../gtk/gtkbuilder/window_rgdebinstall_progress.ui.h:3
+msgid "Details"
+msgstr "詳情"
+
+#: ../gtk/gtkbuilder/window_rginstall_progress_msgs.ui.h:2
+msgid "Extra output was generated during Package Manager operation"
+msgstr "套件管理員運作時產生了額外輸出"
+
+#: ../gtk/gtkbuilder/window_tasks.ui.h:1
+msgid ""
+"<span size=\"large\" weight=\"bold\">Which tasks should be performed by your "
+"computer?</span>\n"
+"\n"
+"These are preselected groups of packages to perform each task. If you select "
+"a task, the corresponding packages will be marked for installation."
+msgstr ""
+"<span size=\"large\" weight=\"bold\">電腦要執行那個任務？</span>\n"
+"\n"
+"每個任務都有預選好的套件羣組。如選取任務，相關套件會標記為要安裝。"
+
+#: ../gtk/gtkbuilder/window_tasks.ui.h:4
+msgid "_Description"
+msgstr "描述(_D)"
+
+#: ../gtk/gtkbuilder/window_zvtinstallprogress.ui.h:2
+msgid "<b>Terminal Output:</b>"
+msgstr "<b>終端機輸出：</b>"
+
+#: ../gtk/gtkbuilder/window_zvtinstallprogress.ui.h:3
+msgid "Close this dialog after the changes have been successfully applied"
+msgstr "套用變更後關閉此對話視窗"
+
+#: ../gtk/gtkbuilder/dialog_welcome.ui.h:1
+msgid "Quick Introduction"
+msgstr "簡介"
+
+#: ../gtk/gtkbuilder/dialog_welcome.ui.h:3
+msgid "Show this dialog at startup"
+msgstr "啟動時顯示這對話視窗"
+
+#: ../gtk/gtkbuilder/dialog_welcome.ui.h:4
+msgid ""
+"The software on your system is organized in so called <i>packages</i>. The "
+"package manager enables you to install, to upgrade or to remove software "
+"packages."
+msgstr ""
+"系統的軟件是以所謂的 <i>套件</i> 來管理。套件管理員讓您安裝、升級及移除軟件套"
+"件。"
+
+#: ../gtk/gtkbuilder/dialog_welcome.ui.h:5
+msgid ""
+"You should reload the package information regularly. Otherwise you could "
+"miss important security upgrades."
+msgstr "您應該定期重新載入套件資訊，不然可能會漏掉重要的保安升級。"
+
+#: ../gtk/gtkbuilder/dialog_welcome.ui.h:6
+msgid ""
+"<b>Note:</b> Changes are not applied instantly. At first you have to mark "
+"all changes and then apply them."
+msgstr "<b>注意︰</b>改變不會即時生效。請先標記所有改變，並套用之。"
+
+#: ../gtk/gtkbuilder/dialog_welcome.ui.h:7
+msgid ""
+"You can mark packages for installation, upgrade or removal in several ways:"
+msgstr "可以多種方式將套件標記為「安裝」、「升級」或「移除」："
+
+#: ../gtk/gtkbuilder/dialog_welcome.ui.h:8
+msgid "Select the package and choose the action from the 'Package' menu."
+msgstr "選擇套件及在「套件」選單選取行動。"
+
+#: ../gtk/gtkbuilder/dialog_welcome.ui.h:9
+msgid "Double click on the package name."
+msgstr "雙擊套件名稱。"
+
+#: ../gtk/gtkbuilder/dialog_welcome.ui.h:10
+msgid "Choose the action from the context menu of the package."
+msgstr "在套件的右鍵功能表選擇行動。"
+
+#: ../gtk/gtkbuilder/dialog_welcome.ui.h:11
+msgid "Click on the status icon to open a menu that contains all actions."
+msgstr "點擊狀態圖示開啟包括所有行動的選單。"
+
+#: ../gtk/gtkbuilder/dialog_welcome.ui.h:12
+msgid "-"
+msgstr ""
+
+#: ../gtk/gtkbuilder/dialog_unmet.ui.h:2
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Could not mark all packages for "
+"installation or upgrade</span>\n"
+"\n"
+"The following packages have unresolvable dependencies. Make sure that all "
+"required repositories are added and enabled in the preferences."
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">無法標記所有套件以安裝或升級</span>\n"
+"\n"
+"以下套件有未解決的相依性問題。請碓定偏好設定已加入及啟用所有需要的軟件庫。"
+
+#: ../gtk/gtkbuilder/dialog_changelog.ui.h:2
+msgid "Complete changelog of the latest version:"
+msgstr "最新版本的完整更改記錄："
+
+#: ../gtk/gtkbuilder/dialog_update_failed.ui.h:2
+msgid ""
+"<big><b>Could not download all repository indexes</b></big>\n"
+"\n"
+"The repository may no longer be available or could not be contacted because "
+"of network problems. If available an older version of the failed index will "
+"be used. Otherwise the repository will be ignored. Check your network "
+"connection and ensure the repository address in the preferences is correct."
+msgstr ""
+"<big><b>無法下載所有軟件庫索引</b></big>\n"
+"\n"
+"軟件庫可能已不存在或因為網絡問題無法連上。如果下載失敗的索引有舊版本就會用，"
+"否則不理會該軟件庫。檢查網絡連線並確定偏好設定的軟件庫位址正確。"
+
+#: ../gtk/gtkbuilder/window_iconlegend.ui.h:1 ../gtk/rgiconlegend.cc:42
+msgid "Icon Legend"
+msgstr "圖示說明"
+
+#: ../gtk/gtkbuilder/window_iconlegend.ui.h:3
+msgid ""
+"<b>The following icons are used to indicate the current status of a package:"
+"</b>"
+msgstr "<b>以下的圖示會用作顯示目前套件的狀態：</b>"
+
+#: ../gtk/gtkbuilder/dialog_download_error.ui.h:2
+msgid ""
+"<big><b>Could not download all necessary package files</b></big>\n"
+"\n"
+"The version of the package that you want to install might be no longer "
+"available in the repository, or there may be problems with the source of the "
+"package. Reload the package list and check the source of the package (e.g. "
+"CD or network connection)."
+msgstr ""
+"<big><b>無法下載所有需要的套件檔案</b></big>\n"
+"\n"
+"該軟件庫可能已不再提供要安裝的套件版本，或者套件來源有問題。請重新載入套件清"
+"單並檢查套件來源 (如光碟或網絡連接)。"
+
+#: ../gtk/gtkbuilder/dialog_update_outdated.ui.h:3
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Your package information is out of "
+"date</span>\n"
+"\n"
+"Your package information is older than 48 hours. There could be important "
+"security updates available. It is recommended to reload the package "
+"information regularly."
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">您的套件資訊已經過時</span>\n"
+"\n"
+"您的套件資訊已是 48 小時前的了。這期間內可能出現重要的保安更新。建議定期重新"
+"載入套件資訊。"
+
+#: ../gtk/gtkbuilder/dialog_update_outdated.ui.h:6
+msgid "Remember the answer"
+msgstr "記住答案"
+
+#: ../gtk/gtkbuilder/window_logview.ui.h:1
+msgid "History"
+msgstr "歷史記錄"
+
+#: ../gtk/gtkbuilder/window_logview.ui.h:3
+msgid "History of installed, upgraded and removed software packages."
+msgstr "安裝、升級及移除套件的歷史記錄。"
+
+#: ../gtk/gtkbuilder/window_logview.ui.h:4
+#, fuzzy
+msgid "_Find"
+msgstr "尋找"
+
+#: ../gtk/gtkbuilder/dialog_quit.ui.h:3
+msgid ""
+"<b><big>Quit and discard marked changes?</big></b>\n"
+"\n"
+"There are still marked changes that have not yet been applied. They will get "
+"lost if you choose to quit 'Synaptic'."
+msgstr ""
+"<b><big>結束並放棄已標記的變更？</big></b>\n"
+"\n"
+"這裏還有標記了的變更但未套用。如果您選擇結束「Synaptic」則這些標記都會失去。"
+
+#: ../gtk/gtkbuilder/dialog_conffile.ui.h:1
+msgid "_Keep"
+msgstr "保留(_K)"
+
+#: ../gtk/gtkbuilder/dialog_conffile.ui.h:2
+msgid "_Replace"
+msgstr "取代(_R)"
+
+#: ../gtk/gtkbuilder/dialog_conffile.ui.h:3
+msgid "Difference between the files"
+msgstr "檔案差異"
+
+#: ../gtk/gtkbuilder/dialog_change_version.ui.h:2
+msgid "_Force Version"
+msgstr "強制版本(_F)"
+
+#: ../gtk/gtkbuilder/dialog_change_version.ui.h:3
+msgid "Force version:"
+msgstr "強制版本："
+
+#: ../gtk/gtkbuilder/dialog_upgrade.ui.h:2
+msgid "_Default Upgrade"
+msgstr "預設升級(_D)"
+
+#: ../gtk/gtkbuilder/dialog_upgrade.ui.h:3
+msgid "_Smart Upgrade"
+msgstr "智能升級(_S)"
+
+#: ../gtk/gtkbuilder/dialog_upgrade.ui.h:4
+msgid ""
+"<b><big>Mark upgrades in a smart way?</big></b>\n"
+"\n"
+"The default upgrade method skips upgrades that would introduce conflicts or "
+"require installation of additional packages.\n"
+"\n"
+"The smart upgrade (dist-upgrade) attempts to resolve conflicts and to fulfil "
+"all dependencies of upgrades in a smart way.\n"
+"\n"
+"<b>Note:</b> The upgrades will be marked only. You still have to apply them "
+"afterwards."
+msgstr ""
+"<b><big>以智能方式升級？</big></b>\n"
+"\n"
+"預設的升級方式會跳過導致衝突或需要另外安裝其他套件的升級。\n"
+"\n"
+"智能升級（系統升級）會以聰明的方式在升級時解決衝突並滿足所有套件的相依關"
+"係。\n"
+"\n"
+"<b>注意：</b>此方法只會標記升級，之後仍需由您套用。"
+
+#: ../gtk/gtkbuilder/dialog_upgrade.ui.h:11
+msgid "Remember my answer for future upgrades"
+msgstr "記住我的答案以便在未來升級時使用"
+
+#: ../gtk/gtkbuilder/dialog_upgrade.ui.h:12
+msgid "This behavior can be changed in the preferences later."
+msgstr "稍後可在偏好設定更改此行為。"
+
+#: ../gtk/gtkbuilder/dialog_authentication.ui.h:1
+msgid "HTTP authentication"
+msgstr "HTTP 認證"
+
+#: ../gtk/gtkbuilder/dialog_authentication.ui.h:4
+msgid "Username"
+msgstr "用戶名稱"
+
+#: ../gtk/gtkbuilder/dialog_authentication.ui.h:5
+msgid "Password"
+msgstr "密碼"
+
+#: ../gtk/gtkbuilder/dialog_disc_label.ui.h:2
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Enter a label for this CD-Rom</span>\n"
+"\n"
+"The label will be used if you want to install packages from this CD-Rom. It "
+"is recommended to also write the label on the CD-Rom to easily find it "
+"again.\n"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">請為此光碟輸入標籤</span>\n"
+"\n"
+"如果要從這片光碟安裝套件，將會用到此標籤。建議你也在光碟上寫上該標籤，將來比"
+"較好找。\n"
+
+#: ../gtk/gtkbuilder/dialog_disc_label.ui.h:6
+msgid "Label:"
+msgstr "標籤："
+
+#: ../gtk/gtkbuilder/dialog_new_repositroy.ui.h:1
+msgid ""
+"<big><b>Enter the complete APT line of the repository that you want to add</"
+"b></big>\n"
+"\n"
+"The APT line contains the type, location and content of a repository, for "
+"example <i>\"deb http://ftp.debian.org sarge main\"</i>. You can find a "
+"detailed description of the syntax in the documentation."
+msgstr ""
+"<big><b>請輸入完整一行想新增的 APT 來源</b></big>\n"
+"\n"
+"此行 APT 包括種類、位址以及軟件庫的內容，例如 <i>\"deb http://ftp.debian.org "
+"sarge main\"</i>。你可以在文件內找到這個語法的詳細資料。"
+
+#: ../gtk/gtkbuilder/dialog_new_repositroy.ui.h:4
+msgid "APT line:"
+msgstr ""
+
+#: ../gtk/gtkbuilder/dialog_new_repositroy.ui.h:7
+msgid "_Add Repository"
+msgstr "添加軟件庫(_A)"
+
+#: ../data/synaptic.desktop.in.h:1
+msgid "Synaptic Package Manager"
+msgstr "Synaptic 套件管理員"
+
+#: ../data/synaptic.desktop.in.h:2
+msgid "Package Manager"
+msgstr "套件管理員"
+
+#: ../data/synaptic.desktop.in.h:3
+msgid "Install, remove and upgrade software packages"
+msgstr "安裝、移除及升級套件"
+
+#: ../data/com.ubuntu.pkexec.synaptic.policy.in.h:1
+msgid "Authentication is required to run the Synaptic Package Manager"
+msgstr "執行 Synaptic 套件管理員前要先認證"
+
+#: ../gtk/rgfiltermanager.h:62
+msgid "Includes"
+msgstr "包括"
+
+#: ../gtk/rgfiltermanager.h:63
+msgid "Excludes"
+msgstr "不包括"
+
+#: ../gtk/rgfiltermanager.h:69
+msgid "Package name"
+msgstr "套件名稱"
+
+#: ../gtk/rgfiltermanager.h:72
+msgid "Version number"
+msgstr "版本號"
+
+#. provides and name
+#: ../gtk/rgfiltermanager.h:75
+msgid "Conflicting packages"
+msgstr "衝突的套件"
+
+#. conflicts
+#: ../gtk/rgfiltermanager.h:76
+msgid "Replaced packages"
+msgstr "已取代套件"
+
+#. replaces/obsoletes
+#: ../gtk/rgfiltermanager.h:77
+msgid "Recommendations"
+msgstr "推薦"
+
+#. /recommends
+#: ../gtk/rgfiltermanager.h:78
+msgid "Suggestions"
+msgstr "建議"
+
+#. suggests
+#: ../gtk/rgfiltermanager.h:79
+msgid "Dependent packages"
+msgstr "依賴此套件的套件"
+
+#: ../gtk/rgpkgcdrom.cc:68
+msgid "Please insert a disc in the drive."
+msgstr "請在光碟機插入碟片。"
+
+#: ../gtk/rgiconlegend.cc:77
+msgid "Package is supported"
+msgstr "有支援的套件"
+
+#: ../gtk/rgterminstallprogress.cc:142
+msgid "<i>Running...</i>"
+msgstr "<i>正在執行...</i>"
+
+#: ../gtk/rgterminstallprogress.cc:172
+msgid "<i>Finished</i>"
+msgstr "<i>完成</i>"
+
+#: ../gtk/rgterminstallprogress.cc:183
+msgid "<i>Can't close while running</i>"
+msgstr "<i>執行時不能關閉</i>"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "Starting without administrative privileges"
+#~ msgstr "在沒有系統管理員權限的情況下啟動"
+
+#~ msgid "Installed Size"
+#~ msgstr "安裝後大小"
+
+#~ msgid "deb"
+#~ msgstr "deb"
+
+#~ msgid "deb-src"
+#~ msgstr "deb-src"
+
+#~ msgid "rpm"
+#~ msgstr "rpm"
+
+#~ msgid "rpm-src"
+#~ msgstr "rpm-src"
+
+#~ msgid "-o=? Set an arbitary configuration option, eg -o dir::cache=/tmp\n"
+#~ msgstr "-o=? 自訂設置選項，如 -o dir::cache=/tmp\n"
+
+#~ msgid ""
+#~ "You will not be able to apply any changes. But you can still export the "
+#~ "marked changes or create a download script for them."
+#~ msgstr "未有套用任何變更。但仍然可以匯出標示的變更或建立下載 script。"
+
+#~ msgid "Available Version"
+#~ msgstr "可提供版本"
+
+#~ msgid ""
+#~ "Removing this package may render the system unusable.\n"
+#~ "Are you sure you want to do that?"
+#~ msgstr ""
+#~ "移除此套件或會導致電腦完全失靈。\n"
+#~ "確定要這樣做嗎？"
+
+#~ msgid ""
+#~ "An error occured while starting the help viewer\n"
+#~ "\tCommand: %s"
+#~ msgstr ""
+#~ "當啟動求助檢視器時發生錯誤\n"
+#~ "\t指令：%s"
+
+#~ msgid ""
+#~ "No help viewer is installed!\n"
+#~ "\n"
+#~ "You need either the GNOME help viewer 'yelp', the 'konqueror' browser or "
+#~ "the 'mozilla' browser to view the synaptic manual.\n"
+#~ "\n"
+#~ "Alternatively you can open the man page with 'man synaptic' from the "
+#~ "command line or view the html version located in the 'synaptic/html' "
+#~ "folder."
+#~ msgstr ""
+#~ "未有安裝說明文件瀏覽器！\n"
+#~ "\n"
+#~ "您需要 Gnome 的說明文件瀏覽器「yelp」、「konqueror」瀏覽器或「mozilla」瀏"
+#~ "覽器來顯示 synaptic 的使用手冊。\n"
+#~ "\n"
+#~ "您亦可在指令列以「man synaptic」開啟 man page；或以瀏覽器檢示位於"
+#~ "「synaptic/html」資料夾的 html 版本。"
+
+#~ msgid "Show for individual files"
+#~ msgstr "顯示個別檔案"
+
+#~ msgid "Installed automatically as part of a dependency"
+#~ msgstr "因依存關係而自動安裝"
+
+#~ msgid "Automatic installed but no longer required by any other package"
+#~ msgstr "自動安裝但其他套件已不再需要"
+
+#~ msgid "Installed manually (not as a dependency by something else)"
+#~ msgstr "已手動安裝 (非因為其他套件需要)"

@@ -1,0 +1,70 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH SYNAPTIC 8 "Mar 4, 2004"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+synaptic \- graphical management of software packages
+.SH SYNOPSIS
+\fBsynaptic\fP [options]
+.br
+.SH DESCRIPTION
+Synaptic is a frontend for the apt package managent system.
+It allows you to perform all actions of the command line tool
+apt-get in a graphical environemnt. This includes installing,
+upgrading, downgrading  and removing of single packages or
+even upgrading your whole system.
+.PP
+A manual with detailed instructions can be found in the help
+menu of Synaptic.
+
+.SH OPTIONS
+Synaptic accepts all of the standard Gtk+ toolkit command line
+options as well as the following:
+.TP
+\fB-f\fR, \fB\-\-filter-file\fR=\fIfilename\fR
+specify an alternative filter settings file
+.TP
+\fB-i\fR, \fB\-\-initial-filter\fR=\fIint\fR
+apply the filter with number \fIint\fR at startup
+.TP
+\fB-o\fR, \fB\-\-option\fR=\fIoption\fR
+set an internal option (experts only)
+
+.SH AUTHORS
+Synaptic was originally developed by Alfredo K. Kojima
+<kojima@conectiva.com.br>. His last official release was 0.16. Michael
+Vogt <mvo@debian.org> took over his CVS version, that already included a
+nearly complete port to Gtk+. Michael completed the port and added new
+features. See the \fINEWS\fR file for the user visible changes from
+that point on. Conectiva is still involved in the development of
+synaptic. Gustavo Niemeyer <niemeyer@conectiva.com> is doing a
+great deal of work.
+.PP
+All development is done at http://savannah.gnu.org/projects/synaptic
+.PP
+This manual page was originally written by Wybo Dekker <wybo@servalys.nl> and
+Michael Vogt <mvo@debian.org> and modified by Sebastian Heinlein
+<sebastian.heinlein@campus.lmu.de>.
+
+.SH COPYRIGHT
+Copyright  (C)  2001-2004 Conectiva S/A
+.PP
+Copyright  (C)  2002-2004 Michael Vogt
+.PP
+There is NO warranty.  
+You may redistribute this software under the terms of  the  GNU
+General  Public License.  For more information about these matters, see
+the files named COPYING.

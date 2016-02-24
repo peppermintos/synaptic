@@ -1,0 +1,2768 @@
+<?xml version="1.0"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "gpl.xml">
+<!ENTITY appversion "0.53">
+<!ENTITY app "<application>Synaptic Package Manager</application>">
+<!ENTITY manrevision "0.1.2">
+<!ENTITY date "October 2003">
+]>
+<!-- =============Document Header ============================= -->
+<article id="index" lang="en">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+<articleinfo> 
+<title>&app; Manual V&manrevision;</title>       
+
+<copyright> 
+	<year>2003,2004</year> 
+	<holder>Sebastian Heinlein</holder> 
+</copyright>
+
+	<!-- translators: uncomment this:
+
+<copyright>
+	<year>2002</year>
+	<holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+</copyright>
+
+-->
+
+<authorgroup> 
+	<author> 
+		<firstname>Sebastian</firstname> 
+		<surname>Heinlein</surname> 
+	</author>
+</authorgroup>
+
+<releaseinfo>
+	This manual describes version &appversion; 
+	of Synaptic Package Manager.
+</releaseinfo> 
+
+<legalnotice>
+	<title>Legal Notice</title>	
+	<para> 
+		This document is distributed under the terms of the GNU
+		Public license as published by the Free Software; either version 2 of the License, 
+		or (at your option) later version. A copy of this license can be found in
+		, or in the file included with 
+		the source code of this program. 
+	</para>
+</legalnotice>
+
+<legalnotice> 
+	<title>Feedback</title>
+	<para>
+		To report a bug or make a suggestion regarding 
+		the &app; or this manual, use the bug report 
+		system at <ulink url="http://www.nongnu.org/synaptic" 
+		type="http">Synaptic Web</ulink>, contact the mailing list 
+		<email>synaptic-devel@nongnu.org</email>
+		join the IRC channel #synaptic on irc.freenode.org.
+	</para>
+	<!-- Translators may also add here feedback address for translation -->
+
+</legalnotice> 
+</articleinfo> 
+
+<indexterm zone="index"> 
+	<primary>Synaptic Package Manager</primary> 
+</indexterm> 
+<indexterm zone="index"> 
+	<primary>Packages</primary>
+</indexterm>
+<indexterm zone="index"> 
+	<primary>Software</primary>
+</indexterm>
+
+<sect1 id="synaptic-introduction"> 
+	<title>Introduction</title> 
+	<para>
+		The &app; enables you to install software onto your computer and to manage the software, that is 
+		already installed. The software is bundled in so called <emphasis>packages</emphasis>. A single 
+		application can even exist of several packages: e.g. the <application>Mozilla Internet Suite</application> is packaged 
+		to <emphasis>mozilla-browser</emphasis>, that contains the actual browser, and <emphasis>mozilla-mail
+		</emphasis>, that contains the mail client (this example refers to Debian GNU/Linux and can be 
+		different on your distribution). 
+	</para>
+	<para>
+		Nearly all applications reuse the functionality of other applications or libraries 
+		(libraries only provide functions to other libraries or applications and are no stand alone 
+		applications) to avoid doubled efforts. So the most packages depend on other packages. The &app; resolves the <emphasis>
+		dependencies</emphasis> for you automatically. 
+	</para>
+	<para>
+		Technically the &app; is based on the package manager <application>APT</application> and provides functions, that are 
+		similar to the ones of the command line tool <command>apt-get</command> in a graphical environment.
+	</para>
+	<para>
+		In detail &app; provides the following features: 
+
+	        <itemizedlist>
+		        <listitem>
+			        <para>
+				        Install, remove, configure, upgrade and downgrade single and multiple packages.
+	                        </para>
+		        </listitem>
+			<listitem>
+				<para>
+					Upgrade your whole system.
+	                        </para>
+		        </listitem>
+			<listitem>
+				<para>
+	                                Manage package repositories.
+		                </para>
+	                </listitem>
+		        <listitem>
+			        <para>
+				        Search packages by name, description and several other attributes.
+	                        </para>
+		        </listitem>
+			<listitem>
+				<para>
+					Select packages by status, section, name or a custom filter.
+	                        </para>
+		        </listitem>
+			<listitem>
+				<para>
+	                                 Sort packages by name, status, size or version.
+		                </para>
+			</listitem>
+	                <listitem>
+		                <para>
+			                Browse all available online documentation related to a package.
+				</para>
+	                </listitem>
+	                <listitem>
+		                <para>
+			                Lock packages to the current version.
+				</para>
+	                </listitem>
+	                <listitem>
+		                <para>
+			                Force the installation of a specific package version.
+				</para>
+	                </listitem>
+		</itemizedlist>
+	</para>
+	<note>
+		<para>
+			You need root rights to install or remove software packages on your computer.
+		</para>
+	</note>
+
+	<para>
+		You can start <application>&app;</application> in the 
+		following ways:
+
+	<variablelist>
+		<varlistentry>
+			<term>
+				<guimenu>GNOME Applications</guimenu> menu
+			</term>
+			<listitem>
+				<para>
+					Choose 
+					<menuchoice>
+					<guisubmenu>System Tools</guisubmenu>
+					<guimenuitem>Synaptic Package Manager</guimenuitem>
+					</menuchoice>. 
+				</para>
+			</listitem>
+		</varlistentry>
+		<varlistentry>
+			<term>KDE menu</term>
+			<listitem>
+				<para>
+					Choose 
+					<menuchoice>
+					<guisubmenu>Settings</guisubmenu>
+					<guisubmenu>Extra</guisubmenu>
+					<guimenuitem>Synaptic Package Manager</guimenuitem>
+					</menuchoice>. 
+				</para>
+			</listitem>
+		</varlistentry>
+		<varlistentry>
+			<term>Command line</term>
+			<listitem>
+				<para>
+					To start <application>&app;
+					</application>from a command line type the 
+					following , then press <keycap>Return</keycap>:
+				</para>
+				<para> 
+					<command>synaptic</command> 
+				</para> 
+			</listitem>
+		</varlistentry>
+	</variablelist>
+	</para> 
+
+	<caution>
+		<para>
+			You can render your system unusable.
+		</para>
+		<para>
+			Synaptic allows you to perform changes on the core of your system.
+		</para>
+		<para>
+			Always use &app; with care.
+		</para>
+	</caution>
+
+</sect1>
+
+<sect1 id="synatpic-win"> 
+	<title>Main Window</title> 
+
+<sect2 id="synaptic-win-overview">
+	<title>Overview</title>
+	<para>
+		When you start <application>&app;</application>, the 
+		following window is displayed.
+	</para>
+
+	<figure id="mainwindow-fig"> 
+		<title>&app; Start Up Window</title> 
+		<screenshot> 
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="figures/synaptic-start.png" 
+					format="PNG"/> 
+				</imageobject>
+				<textobject> 
+					<phrase>
+					Shows &app; main window. Contains titlebar, 
+					menubar, toolbar, display area, and
+					scrollbars. Menubar contains File, View, 
+					Settings, and Help menus. 
+					</phrase> 
+				</textobject> 
+			  </mediaobject> 
+		</screenshot> 
+	</figure>
+
+	<table frame="topbot" id="table-synaptic-main">
+		<title>&app; Window Components</title>
+		<tgroup cols="2" colsep="0" rowsep="0">
+			<colspec colname="COLSPEC0" colwidth="30*"/>
+			<colspec colname="COLSPEC1" colwidth="70*"/>
+			<thead>
+				<row rowsep="1">
+					<entry valign="top" align="left">
+						Component
+					</entry>
+					<entry valign="top" align="left">
+						Description
+					</entry>
+				</row>
+			</thead>
+			<tbody>
+				<row>
+					<entry valign="top">
+						Menubar
+					</entry>
+					<entry valign="top">
+						Contains menus that you can use to perform actions
+						in &app;.
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">
+						Toolbar
+					</entry>
+					<entry valign="top">
+						Provides main actions.
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">Category selector</entry>
+					<entry valign="top">
+						Provides categories to narrow down the list of shown
+						listed packages.
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">Package list</entry>
+					<entry valign="top">
+						Lists known packages. The list
+						can be narrowed down by using filters and categories.
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">Description field</entry>
+					<entry valign="top">
+						Shows the description of the selected package.
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">Statusbar</entry>
+					<entry valign="top">
+						Displays global informations about the status 
+						of &app;.
+					</entry>
+				</row>
+			</tbody>
+		</tgroup>
+	</table>
+</sect2>
+
+<sect2 id="synaptic-win-toolbar">
+	<title>Toolbar</title>
+	
+	<figure>
+		<title>&app; toolbar</title> 
+		<screenshot> 
+			<mediaobject> 
+				<imageobject>
+					<imagedata fileref="figures/synaptic-toolbar.png" 
+						format="PNG"/> 
+				</imageobject>
+				<textobject> 
+					<phrase>
+						Shows the toolbar of the &app; main window
+					</phrase>
+				</textobject> 
+			</mediaobject> 
+		</screenshot> 
+	</figure>
+
+	<para>
+		The toolbar provides the following actions:
+	
+		<variablelist>
+			<varlistentry>
+				<term>
+					Reload
+				</term>
+				<listitem>
+					<para>
+						Reload the list of known packages.
+					</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>
+					Mark all Upgrades
+				</term>
+				<listitem>
+					<para>
+						Mark all possible and available upgrades.
+					</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>
+					Apply
+				</term>
+				<listitem>
+					<para>
+						Apply all marked changes.
+					</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>
+					Properties
+				</term>
+				<listitem>
+					<para>
+						Open the <xref linkend="synaptic-win-properties"/> dialog of the selected package.
+					</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>
+					Search
+				</term>
+				<listitem>
+					<para>
+						Open the package search dialog.
+					</para>
+				</listitem>
+			</varlistentry>
+		</variablelist>
+	</para>
+</sect2>
+
+<sect2 id="synaptic-win-selector" xreflabel="category selector">
+	<title>Category Selector</title>
+	
+	<para>
+		The selector on the left side allows you to narrow down the packages, that are shown in the <xref linkend="synaptic-win-list"/>
+		by categories.
+	</para>
+
+	<figure>
+		<title>Category Selector</title> 
+		<screenshot> 
+			<mediaobject> 
+				<imageobject>
+					<imagedata fileref="figures/synaptic-categories.png" 
+						format="PNG"/> 
+				</imageobject>
+				<textobject> 
+					<phrase>
+						Shows the category selector in the &app; main window.
+					</phrase>
+				</textobject> 
+			</mediaobject> 
+		</screenshot> 
+	</figure>
+
+	<para>
+		The following categories are available:
+		
+		<variablelist>
+			<varlistentry>
+				<term>
+					Sections
+				</term>
+				<listitem>
+					<para>
+						Show packages belonging to the
+						selected section, only.
+					</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>
+					Status
+				</term>
+				<listitem>
+					<para>
+						Show packages of the
+						selected status, only.
+					</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>
+					Alphabet
+				</term>
+				<listitem>
+					<para>
+						Show packages with the
+						selected initial letter, only.
+					</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>
+					Filter
+				</term>
+				<listitem>
+					<para>
+						Show packages that fit to
+						the selected custom criteria, only.
+					</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>
+					Search history
+				</term>
+				<listitem>
+					<para>
+						Show the results of the
+						selected search, only.
+					</para>
+				</listitem>
+			</varlistentry>
+		</variablelist>
+	</para>
+</sect2>
+
+
+<sect2 id="synaptic-win-list" xreflabel="package list">
+	<title>Package List</title>
+
+	<para>
+		The package list shows the packages of the selected category.
+	</para>
+
+	<figure>
+		<title>Package List</title> 
+		<screenshot> 
+			<mediaobject> 
+				<imageobject>
+					<imagedata fileref="figures/synaptic-packagelist.png" 
+						format="PNG"/> 
+				</imageobject>
+				<textobject> 
+					<phrase>
+						Shows the package list in the &app; main window.
+					</phrase>
+				</textobject> 
+			</mediaobject> 
+		</screenshot> 
+	</figure>
+
+	<tip>
+		<para>
+			The used status icons are explained in the icon legend. To open the legend choose 
+			<menuchoice><guimenu>Help</guimenu><guimenuitem>Icon Legend</guimenuitem></menuchoice>
+			from the menu.
+		</para>
+	</tip>
+
+
+	<tip>
+		<para>
+			The column order and the used colors can be changed in the preferences.
+		</para>	
+	</tip>
+</sect2>
+
+
+<sect2 id="synaptic-win-properties" xreflabel="properties">
+	<title>Package Properties</title>
+
+	<para>
+		To open the properties dialog of a selected package:
+		
+		<itemizedlist>
+			<listitem>
+				<para>
+					Choose <menuchoice><guimenu>Package</guimenu><guimenuitem>Properties</guimenuitem></menuchoice>
+					from the menu
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Click on <guibutton>Properties</guibutton> in the toolbar
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Press the key combination <keycombo><keycap>Ctrl</keycap><keycap>O</keycap></keycombo>
+				</para>
+			</listitem>
+		</itemizedlist>
+	</para>
+		
+
+	<figure>
+		<title>Package Properties Dialog</title> 
+		<screenshot> 
+			<mediaobject> 
+				<imageobject>
+					<imagedata fileref="figures/synaptic-packagedetails.png" 
+						format="PNG"/> 
+				</imageobject>
+				<textobject> 
+					<phrase>
+						Shows the package details in the &app; main window.
+					</phrase>
+				</textobject> 
+			</mediaobject> 
+		</screenshot> 
+	</figure>
+
+	<para>
+		The notebook provides the following tabs:
+
+		<table frame="topbot" id="table-synaptic-propertiestabs">
+			<title>Tabs in the properties dialog</title>
+			<tgroup cols="2" colsep="0" rowsep="0">
+				<colspec colname="COLSPEC0" colwidth="30*"/>
+				<colspec colname="COLSPEC1" colwidth="70*"/>
+				<thead>
+					<row rowsep="1">
+						<entry valign="top" align="left">
+							Tab
+						</entry>
+						<entry valign="top" align="left">
+							Description
+						</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry valign="top">
+							Common
+						</entry>
+						<entry valign="top">
+							Shows basic information of the package: name, short description, maintainer, 
+							status, priority, tags <emphasis>(if supported)</emphasis> and version.
+						</entry>
+					</row>
+					<row>
+						<entry valign="top">
+							Description
+						</entry>
+						<entry valign="top">
+							Shows a long description of the package.
+						</entry>
+					</row>
+					<row>
+						<entry valign="top">
+							Dependencies
+						</entry>
+						<entry valign="top">
+							Lists required, depending, provided, suggested and recommended packages.
+						</entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
+	</para>
+</sect2>
+
+</sect1>
+
+
+<!-- sect1 id="synaptic-browsefind"> 
+
+NEEDS A REWRITE - SO DISABLED FOR 0.53
+	<title>Browsing and Searching for Packages</title> 
+
+	
+<sect2 id="synaptic-browse">
+	<title>
+		To Browse the List of Known Packages (FIXME)
+	</title>
+	
+	<para>
+		&app; provides you with a central list of all known packages. This includes packages that are available, 
+		installed or even broken. Because the most distributions contain many thousands packages, you can
+		narrow down the list of shown packages. The following methods allow you to browse through the list
+		of known packages:
+	</para>
+	
+	<variablelist>
+		<varlistentry>
+			<term>
+				The browser list
+			</term>
+			<listitem>
+				<para>
+				</para>
+			</listitem>
+		</varlistentry>
+		<varlistentry>
+			<term>
+				The filter
+			</term>
+			<listitem>
+				<para>
+				</para>
+			</listitem>
+		</varlistentry>
+		<varlistentry>
+			<term>
+				The find field
+			</term>
+			<listitem>
+				<para>
+				</para>
+			</listitem>
+		</varlistentry>
+	</variablelist>
+</sect2>
+
+
+<sect2 id="synaptic-find"> 
+	<title>To Find and Browse Packages (FIXME)</title> 
+
+	<anchor id="anchor-find" xreflabel="found"/>
+
+
+<variablelist>
+<varlistentry id="synaptic-pkg-find-quicksearch">
+	<term>	
+		To find a specific package
+	</term>
+	<listitem>
+	<para>
+		To find a specific package follow these steps:
+	</para>
+	<para>
+	<orderedlist>
+		<listitem>
+			<para>
+				Open the find dialog:
+				<itemizedlist>
+					<listitem>
+						<para>
+							Press the key combination
+							<keycombo><keycap>Ctrl</keycap><keycap>f</keycap>
+							</keycombo>.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Click on
+							<guilabel>Find</guilabel> in the toolbar.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Choose
+							<menuchoice><guimenu>Edit</guimenu><guimenuitem>Find</guimenuitem>
+							</menuchoice> from the menu.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Enter the search expression into the
+				<guilabel>Find</guilabel> field. E.g. "music
+				player" if you want to search for music player.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Select the fields in which to look. 
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Click on <guilabel>Find</guilabel> to start
+				the search. This can take some time on low machines and wide
+				search criteria.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				After the pro FIXME
+			</para>
+		</listitem>
+	</orderedlist>
+	</para>
+	</listitem>
+</varlistentry>
+
+<varlistentry id="synaptic-pkg-find-advsearch">
+		<term>
+			Showing only searched packages
+		</term>
+	
+		<listitem>
+			<para>
+				To only show matching packages in the package list perform the following steps:
+			</para>
+			<para>
+		<orderedlist>
+			<listitem>
+				<para>
+					Open the search dialog <menuchoice><guimenu>Package</guimenu>
+					<guimenuitem>Find...</guimenuitem>
+					</menuchoice> from the menu or press <keycombo><keycap>Ctrl</keycap>
+					<keycap>F</keycap></keycombo>.
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Type the search expression into the find field, e.g. "mp3 ogg player".
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Select the fields that you want to search in, e.g. "name" and "description"
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Click on <guibutton>Find</guibutton> to 
+					start the search. In our example only music players and related packages will be listed.
+				</para>
+			</listitem>
+		</orderedlist>
+		</para>
+		<para>
+		<tip>
+			<para>
+				You can create more complex filters with the 
+				<xref linkend="synaptic-filter-edit"></xref>.
+			</para>
+		</tip>
+		</para>
+		</listitem>
+	</varlistentry>
+</variablelist>
+</sect2>
+</sect1 -->
+<sect1 id="synaptic-single"> 
+	<title>Managing Packages</title> 
+
+	<para>
+		This chapter covers the basic actions <xref linkend="anchor-installing"/>,
+		<xref linkend="anchor-removing"/> and <xref linkend="anchor-upgrading"/>
+		of packages.
+	</para>
+	<para>
+		Furthermore performing a <xref linkend="anchor-dist-upgrade"/>,
+		<xref linkend="anchor-dwww"/> the online documentation, 
+		<xref linkend="anchor-changelog"/> the changelog	and the advanced actions
+		<xref linkend="anchor-force"/> the installation of a specific package version,
+		<xref linkend="anchor-lock"/> a package to the current version are described.
+	</para>  
+
+<sect2 id="synaptic-pkg-install"> 
+	<title>To Install Packages</title>
+
+	<anchor id="anchor-installing" xreflabel="installing"/>
+
+	<note>
+		<para>
+			If different version of the same package are available &app;  will select the most 
+			applicable by default. To force the installation of a specific version that is different 
+			to the default one, see <xref linkend="synaptic-pkg-force"/>.
+		</para>
+	</note>
+
+	<para>
+		If you want to install a package perform the following steps:
+	</para>
+	<orderedlist>
+		<listitem>
+			<para>
+				Reload the package information to be aware of the latest versions available:
+
+			<itemizedlist>
+				<listitem>
+					<para>
+						Choose <menuchoice><guimenu>Edit</guimenu>
+						<guimenuitem>Reload Package Information</guimenuitem>
+						</menuchoice> from the menu.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Click on <guibutton>Reload</guibutton> in the toolbar.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Press the key combination 
+						<keycombo><keycap>Ctrl</keycap><keycap>R</keycap></keycombo>.
+					</para>
+				</listitem>
+			</itemizedlist>
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Mark the package for installation:
+
+				<itemizedlist>
+					<listitem>
+						<para>
+							Double click on the name of the package in the
+							<xref linkend="synaptic-win-list"/>.
+						</para>
+					</listitem>
+		                        <listitem>
+			                        <para>
+				                        Click on the status icon of the package and choose <guimenuitem>
+					                Mark for Installation</guimenuitem> from the menu.
+						</para>
+	                                </listitem>
+					<listitem>
+						<para>
+							Right click on the package and choose <guimenuitem>
+							Mark for Installation</guimenuitem> from the
+							context menu.
+						</para>
+					</listitem>
+			                <listitem>
+				                <para>
+					                Select the package and
+							choose <menuchoice><guimenu>Package</guimenu>
+						        <guimenuitem>Mark for Installation</guimenuitem>
+							</menuchoice> from the menu.
+	                                        </para>
+		                        </listitem>
+					<listitem>
+						<para>
+							Select the package and
+							press the key combination <keycombo>
+							<keycap>Ctrl</keycap><keycap>I</keycap></keycombo>.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+			<para>
+				If the installation of the package(s) requires additional changes, you will be asked 
+				for confirmation. To also mark the additional changes click on the button <guibutton>Mark
+				</guibutton>.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Apply the marked changes to actually install the package:
+
+				<itemizedlist>
+					<listitem>
+						<para>
+							Click on <guibutton>Apply</guibutton> in the toolbar.	
+					</para>
+					</listitem>
+					<listitem>
+						<para>
+							Choose <menuchoice><guimenu>Edit</guimenu>
+							<guimenuitem>Apply Marked Changes</guimenuitem>
+							</menuchoice> from the menu.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Press the key combination 
+							<keycombo><keycap>Ctrl</keycap><keycap>P</keycap></keycombo>.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				You will be asked for confirmation. Check the summarized changes that will be applied. 
+				To continue with the actual installation confirm the changes click on <guibutton>Apply</guibutton>.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				During the processing of the changes you will see a progressbar. Wait until
+				the changes have been applied. This can take some time depending on the number
+				of changes. Afterwards you will be returned to the main window.
+			</para>				
+			<note>
+				<para>
+					The progressbar is not available on Debian system. Instead you will
+					see a detailed terminal output.
+				 </para>
+			</note>
+		</listitem>
+	</orderedlist>
+</sect2>
+
+<sect2 id="synaptic-pkg-remove"> 
+	<title>To Remove Packages</title>
+	<anchor id="anchor-removing" xreflabel="removing"/>
+
+	<para>
+		<note>
+			<para>
+				Configuration files and user created data (e.g. a website in "/var/www") are not removed
+				from the system by default.
+			</para>
+			<para>
+				<emphasis>Debian only:</emphasis> You can change the default behavior in the preferences.
+			</para>
+			<para>
+				<emphasis>Debian only:</emphasis> To remove all files related to the package
+				choose <menuchoice><guimenuitem>Mark for
+				Complete Removal</guimenuitem></menuchoice> instead of 
+				<menuchoice><guimenuitem>Mark for Removal</guimenuitem></menuchoice>.
+			</para>
+		</note>
+	</para>
+	<!-- para>
+		<note>
+			<para>
+				<emphasis>Debian only:</emphasis> To also remove packages that are only installed as dependency 
+				of the to be removed 
+				package(s) and that would be no longer needed (orphaned) afterwards, choose 
+				<menuchoice><guimenuitem>Remove Including Orphaned Dependecies</guimenuitem>
+				</menuchoice> instead of <menuchoice><guimenuitem>Remove</guimenuitem></menuchoice>.
+			</para>
+		</note>
+	</para -->
+	<para>
+		To remove a packages follow these steps:
+	</para>
+	<orderedlist>
+		<listitem>
+			<para>
+				Mark the package for removal:
+				<itemizedlist>
+					<listitem>
+						<para>
+							Double click on the name of the installed package in the
+							<xref linkend="synaptic-win-list"/>.
+						</para>
+					</listitem>
+		                        <listitem>
+			                        <para>
+				                        Click on the status icon of the package and choose <guimenuitem>
+					                Mark for Removal</guimenuitem> from the menu.
+						</para>
+	                                </listitem>
+					<listitem>
+						<para>
+							Right click on the package and choose <guimenuitem>
+							Remove</guimenuitem> from the context menu.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Select the package and
+							choose <menuchoice><guimenu>Package</guimenu>
+							<guimenuitem>Mark for Removal</guimenuitem>
+							</menuchoice> from the menu.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Select the package and
+							press the key <keycap>Delete</keycap>.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+			<para>
+				If the removal of the package(s) requires additional changes, you will be asked 
+				for confirmation. To also mark the additional changes click on the button <guibutton>Mark
+				</guibutton>.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Apply the marked changes to actually remove the package(s):
+
+				<itemizedlist>
+					<listitem>
+						<para>
+							Click on <guibutton>Apply</guibutton> in the toolbar.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Choose <menuchoice><guimenu>Edit</guimenu>
+							<guimenuitem>Apply Marked Changes</guimenuitem>
+							</menuchoice> from the menu.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Press the key combination 
+							<keycombo><keycap>Ctrl</keycap><keycap>P</keycap></keycombo>.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				You are asked for confirmation. Check the summarized changes that will be applied. 
+				To continue with the actual removal confirm the changes click on <guibutton>Apply</guibutton>.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				During the processing of the changes you will see a progressbar. Wait until
+				the changes have been applied. This can take some time depending on the number
+				of changes. Afterwards you will be returned to the main window.
+			</para>				
+			<note>
+				<para>
+					The progressbar is not available on Debian system. Instead you will
+					see a detailed terminal output.
+				</para>
+			</note>
+		</listitem>
+	</orderedlist>
+</sect2>
+<sect2 id="synaptic-pkg-upgrade"> 
+	<title>To Upgrade Packages</title>
+
+	<anchor id="anchor-upgrading" xreflabel="upgrading"/>
+
+	<para>
+		To upgrade a package follow these steps:
+	</para>
+	<orderedlist>
+		<listitem>
+			<para>
+				Reload the package information to be aware of the latest versions available:
+
+				<itemizedlist>
+					<listitem>
+						<para>
+							Choose <menuchoice><guimenu>Edit</guimenu>
+							<guimenuitem>Reload Package Information</guimenuitem></menuchoice> 
+							from the menu.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Click on <guibutton>Reload</guibutton> in the toolbar.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Press the key combination 
+							<keycombo><keycap>Ctrl</keycap><keycap>R</keycap></keycombo>.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</listitem>
+
+		<listitem>
+			<para>
+				Mark the package for upgrade:
+
+				<itemizedlist>
+					<listitem>
+						<para>
+							Double click on the name of the package with a later version available
+							in the <xref linkend="synaptic-win-list"/>.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+				                        Click on the status icon of the package and choose <guimenuitem>
+			                                Mark for Upgrade</guimenuitem> from the menu.
+						</para>
+	                                </listitem>
+					<listitem>
+						<para>
+							Right click on the package and choose <guimenuitem>
+							Mark for Upgrade</guimenuitem> from the
+							context menu.
+						</para>
+		                        </listitem>
+					<listitem>
+						<para>
+							Select the package and
+							choose <menuchoice><guimenu>Package</guimenu>
+							<guimenuitem>Mark for Upgrade</guimenuitem>
+							</menuchoice> from the menu.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Select the package and
+							press the key combination 
+							<keycombo><keycap>Ctrl</keycap><keycap>P</keycap></keycombo>.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+			<para>
+				If the upgrade of the package(s) requires additional changes, you will be asked 
+				for confirmation. To also mark the additional changes click on the button <guibutton>Mark
+				</guibutton>.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Apply the marked changes to actually upgrade the package:
+			</para>
+			<itemizedlist>
+				<listitem>
+					<para>
+						Click on <guibutton>Apply</guibutton> in the toolbar.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Choose <menuchoice><guimenu>Edit</guimenu>
+						<guimenuitem>Apply Marked Changes</guimenuitem></menuchoice> from the menu.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Press the key combination 
+						<keycombo><keycap>Ctrl</keycap><keycap>P</keycap></keycombo>.
+					</para>
+				</listitem>
+			</itemizedlist>
+		</listitem>
+		<listitem>
+			<para>
+				You are asked for confirmation. Check the summarized changes that will be applied. 
+				To continue with the actual upgrade confirm the changes click on <guibutton>Apply</guibutton>.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				During the processing of the changes you will see a progressbar. Wait until
+				the changes have been applied. This can take some time depending on the number
+				of changes. Afterwards you will be returned to the main window.
+			</para>				
+			<note>
+				<para>
+					The progressbar is not available on Debian system. Instead you will
+					see a detailed terminal output.
+				</para>
+			</note>
+		</listitem>
+	</orderedlist>
+	<tip>
+		<para>
+			To upgrade all installed packages to the latest version,
+			see <xref linkend="synaptic-pkg-upgradesystem"/>.
+		</para>
+	</tip>
+</sect2>
+
+
+<sect2 id="synaptic-pkg-upgradesystem"> 
+	<title>To Upgrade the Whole System</title>
+
+	<anchor id="anchor-dist-upgrade" xreflabel="system upgrade"/>
+	
+	<para>
+		&app; provides two methods for marking packages for upgrade:
+		<variablelist>
+			<varlistentry>
+				<term>
+					Default Upgrade
+				</term>
+				<listitem>
+					<para> 
+						The default upgrade method marks upgrades of installed packages only. 
+						If the later version of a package depends on not installed packages 
+						or conflicts with an already installed package, 
+						the upgrade will not be marked.
+					</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>
+					Smart Upgrade (Dist-Upgrade)
+				</term>
+				<listitem>
+					<para>
+						The smart upgrade method tries to resolve package conflicts intelligently. This includes
+						installing additional required packages and preferring packages with
+						higher priority.
+					</para>
+					<para>
+						Smart upgrade is also known as <emphasis>dist-upgrade</emphasis> in the console tool apt-get.
+					</para>
+				</listitem>
+			</varlistentry>
+		</variablelist>
+
+		<note>
+			<para>
+				Upgrades to a later operating system major releases have to be performed with the 
+				smart upgrade method, e.g. from Conectiva 9 to Conectiva 10 or from 
+				Debian Woody to Debian Sarge.
+			</para>
+		</note>
+	</para>
+
+	<para>
+		To upgrade your system to the latest version follow these steps:
+	</para>
+	<orderedlist>
+		<listitem>
+			<para>
+				 Reload the package information to be aware of the latest versions available:
+
+				<itemizedlist>
+					<listitem>
+						<para>
+							Choose <menuchoice><guimenu>Edit</guimenu>
+							<guimenuitem>Reload Package Information</guimenuitem></menuchoice> from the menu.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Click on <guibutton>Reload</guibutton> in the toolbar.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Press the key combination <keycombo>
+							<keycap>Ctrl</keycap><keycap>R</keycap></keycombo>.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</listitem>
+
+		<listitem>
+			<para>
+				Mark all possible upgrades: 
+
+				<itemizedlist>
+					<listitem>
+						<para>
+							Click on <guibutton>Mark all Upgrades
+							</guibutton> in the toolbar.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Choose <menuchoice><guimenu>Edit</guimenu>
+							<guimenuitem>Mark all Upgrades</guimenuitem>
+							</menuchoice> from the menu.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Press the key combination <keycombo>
+							<keycap>Ctrl</keycap><keycap>G</keycap></keycombo>.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</listitem>
+		
+		<listitem>
+			<para>
+				Choose the upgrade method. Smart upgrade is recommended.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Apply the marked changes to actually upgrade the package(s):
+
+				<itemizedlist>
+					<listitem>
+						<para>
+							Click on <guibutton>Apply</guibutton> in the toolbar.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Choose <menuchoice><guimenu>Edit</guimenu>
+							<guimenuitem>Apply Marked Changes</guimenuitem></menuchoice> 
+							from the menu.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Press the key combination 
+							<keycombo><keycap>Ctrl</keycap><keycap>P</keycap></keycombo>.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				You are asked for confirmation. Check the summarized changes that will be applied. 
+				To continue with the actual upgrade confirm the changes click on <guibutton>Apply</guibutton>.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				During the processing of the changes you will see a progressbar. Wait until
+				the changes have been applied. This can take some time depending on the number
+				of changes. Afterwards you will be returned to the main window.
+			</para>				
+			<note>
+				<para>
+					The progressbar is not available on Debian system. Instead you will
+					see a detailed terminal output.
+				</para>
+			</note>
+		</listitem>
+	</orderedlist>
+
+	<tip>
+		<para>
+			You can change the default upgrade method for further upgrade in the preferences
+			<!-- xref linkend="synaptic-prefs-actions"/-->.
+		</para>
+	</tip>
+</sect2>
+
+<!-- sect2 id="synaptic-pkg-downgrade"> 
+	<title>To Downgrade Packages</title> 
+
+	<caution>
+		<para>
+			This may render your package system unusable!
+		</para>
+		<para>
+			Downgrading packages is a broken feature, since apt and &app; can only handle
+			conflicts and dependency resolution of upgrades. 
+		</para>
+		<para>
+			You may need this feature in some rare circumstances, but it is not recommended to use. 
+		</para>
+	</caution>
+
+	<para>
+		To downgrade a package you have to mark a specific version of the package:
+	</para>
+	<orderedlist>
+		<listitem>
+			<para>
+				Select the package that you wish to downgrade in the 
+				<xref linkend="synaptic-win-list"/>.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Open the Properties dialog of the package:
+
+				<itemizedlist>
+					<listitem>
+						<para>
+							Click on <guibutton>Properties</guibutton> in the toolbar.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Choose <menuchoice><guimenu>Package</guimenu>
+							<guimenuitem>Properties</guimenuitem></menuchoice> 
+							from the menu.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Press the key combination 
+							<keycombo><keycap>Ctrl</keycap><keycap>P</keycap></keycombo>.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Activate the <guibutton>Expert</guibutton> tab in the properties dialog. You will
+				see a list of all available version of the package.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Choose the version to be installed from the list and close the Properties dialog.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Apply the marked changes to actually downgrade the package(s):
+
+				<itemizedlist>
+					<listitem>
+						<para>
+							Click on <guibutton>Apply Changes</guibutton> in the toolbar.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Choose <menuchoice><guimenu>Edit</guimenu>
+							<guimenuitem>Apply Marked Changes</guimenuitem></menuchoice> 
+							from the menu.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Press the key combination 
+							<keycombo><keycap>Ctrl</keycap><keycap>P</keycap></keycombo>.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</listitem>
+	</orderedlist>
+</sect2 -->
+
+<sect2 id="synaptic-pkg-apply">
+	<title>To Apply Marked Changes</title>
+
+	<tip>
+		<para>
+			To show packages that are marked for a status change
+			only choose the "Marked Changes" filter, see 
+			<xref linkend="synaptic-filter-apply"/>.
+		</para>
+	</tip>
+
+	<para>
+		To apply marked changes:
+
+		<itemizedlist>
+			<listitem>
+				<para>
+					Click on <guibutton>Apply</guibutton> in the toolbar.
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Choose <menuchoice><guimenu>Edit</guimenu>
+					<guimenuitem>Apply Marked Changes</guimenuitem></menuchoice> from the menu.
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Press the key combination 
+					<keycombo><keycap>Ctrl</keycap><keycap>P</keycap></keycombo>.
+				</para>
+			</listitem>
+		</itemizedlist>
+	</para>
+	<para>
+		You are asked for confirmation. Check the summarized changes that will be applied. 
+		To confirm the changes click on the button <guibutton>Apply</guibutton>.
+	</para>
+	<para>
+		During the processing of the changes you will see a progressbar. Wait until
+		the changes have been applied. This can take some time depending on the number
+		of changes. Afterwards you will be returned to the main window.
+	</para>				
+	<note>
+		<para>
+			The progressbar is not available on Debian system. Instead you will
+			see a detailed terminal output.
+		</para>
+	</note>
+</sect2>
+
+<sect2 id="synaptic-pkg-undo">
+	<title>To Unmark Changes</title>
+
+	<para>
+		The following ways allow you to unmark changes:
+	</para>
+	
+	<variablelist>
+		<varlistentry>
+			<term>
+				To undo the marking of specific packages
+			</term>
+			<listitem>
+				<itemizedlist>
+					<listitem>
+						<para>
+							Right click on the package and choose <menuchoice>
+							<guimenuitem>Unmark</guimenuitem></menuchoice> from 
+							the context menu.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Select the package(s) and choose <menuchoice>
+							<guimenu>Package</guimenu><guimenuitem>Unmark</guimenuitem>
+							</menuchoice>.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Select the package(s) and press <keycombo><keycap>Ctrl</keycap>
+							<keycap>N</keycap></keycombo>.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</listitem>
+		</varlistentry>
+		<varlistentry>
+			<term>
+				To undo all markings
+			</term>
+			<listitem>
+				<para>
+					Choose <menuchoice><guimenu>Edit</guimenu>
+					<guimenuitem>Unmark All</guimenuitem></menuchoice>
+					from the menu.
+				</para>
+			</listitem>
+		</varlistentry>
+		<varlistentry>
+			<term>
+				To undo the last marking
+			</term>
+			<listitem>
+				<para>
+					Choose <menuchoice><guimenu>Edit</guimenu>
+					<guimenuitem>Undo</guimenuitem></menuchoice>
+					from the menu.
+				</para>
+				<para>
+					This step can be repeated. The maxmium number of undo operations can be set
+					in the preferences. FIX link
+				</para>
+			</listitem>
+		</varlistentry>
+	</variablelist>
+</sect2>
+
+<sect2 id="synaptic-pkg-config">
+	<title>To Configure Packages (Debian only)</title>
+
+	<para>
+		<note>
+			<para>
+				To use this feature you have to install the package
+				<emphasis>libgnome2-perl</emphasis>.
+			</para>
+		</note>
+	</para>	
+
+	<para>
+		Debian provides a unified method, called <emphasis>debconf</emphasis>, to configure software packages. This feature
+		is not supported by all packages. If a package supports this feature the configuration can be done 
+		through an assistant.
+	</para>
+
+	<para>
+		To configure a supported package:
+	</para>
+	<orderedlist>
+		<listitem>
+			<para>
+				Select the package that you wish to configure in the 
+				<xref linkend="synaptic-win-list"/>.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Choose <menuchoice><guimenu>Package</guimenu>
+				<guimenuitem>Configure...</guimenuitem></menuchoice> from the menu.
+			</para>
+		</listitem>
+	</orderedlist>
+	<tip>
+		<para>
+			To get a list of all configurable packages choose the <emphasis>Configurable Packages</emphasis> filter.
+		</para>
+	</tip>
+</sect2>
+
+<sect2 id="synaptic-pkg-docu">
+	<title>To View Documentation for Packages (Debian only)</title>
+
+	<anchor id="anchor-dwww" xreflabel="browsing"/>
+
+
+	<note>
+		<para>
+			To use this feature you have to install the package <emphasis>dwww</emphasis>.
+		</para>
+	</note>
+	
+	<para>
+		Dwww provides access to all the installed documentation
+		related to package with a web browser. The whole documentation is
+		hosted via a local HTTP server.
+	</para>
+
+	<orderedlist>
+		<listitem>
+			<para>
+				Select the package about that you wish to read additional documentation 
+				in the <xref linkend="synaptic-win-list"/>.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Choose <menuchoice><guimenu>Package</guimenu>
+				<guimenuitem>Browse Documentation</guimenuitem></menuchoice>.
+			</para>
+		</listitem>
+	</orderedlist>
+
+</sect2>
+<sect2 id="synaptic-pkg-changelog">
+	<title>To View the Changelog of a Package (Debian only)</title>
+
+	<anchor id="anchor-changelog" xreflabel="reading"/>
+
+	<note>
+		<para>
+			The changelog of native Debian packages can be viewed, only.
+		</para>
+	</note>
+	
+	<para>
+		To view the changelog of a native Debian package perform the following steps:
+	</para>
+
+	<orderedlist>
+		<listitem>
+			<para>
+				Select the package in the <xref linkend="synaptic-win-list"/>.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Choose <menuchoice><guimenu>Package</guimenu>
+				<guimenuitem>Download Changelog</guimenuitem></menuchoice>.
+			</para>
+		</listitem>
+	</orderedlist>
+</sect2>
+
+<sect2 id="synaptic-pkg-lock">
+	<title>To Lock a Package to the Current Version (Debian only)</title>
+
+	<anchor id="anchor-lock" xreflabel="locking"/>
+
+	<para>
+		To lock a package to the current version follow these steps:
+	</para>
+	<orderedlist>
+		<listitem>
+			<para>
+				Select the package that you want to lock in the <xref linkend="synaptic-win-list"/>.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Choose <menuchoice><guimenu>Package</guimenu>
+				<guimenuitem>Lock Version</guimenuitem></menuchoice>.
+			</para>
+			<para>
+				The &app; will reload the package information. You should now see, that the menu item <menuchoice>
+				<guimenu>Package</guimenu><guimenuitem>Lock Version</guimenuitem></menuchoice> is checked.
+				Furthermore all actions in the menu <guimenu>Package</guimenu> are disabled now.
+			</para>
+		</listitem>
+	</orderedlist>
+	<para>
+		To unlock the package uncheck <menuchoice><guimenu>Package</guimenu><guimenuitem>Lock Version</guimenuitem>
+		</menuchoice>.
+	</para>
+</sect2>
+
+
+
+<sect2 id="synaptic-pkg-force">
+	<title>To Force the Installation of a Specific Version</title>
+
+	<anchor id="anchor-force" xreflabel="forcing"/>
+
+	<warning>
+		<para>
+			The &app; always selects the most applicable version available. If you force a 
+			different version from the default one, errors in the dependency handling
+			can occur.
+		</para>
+	</warning>
+
+	<para>
+		To force the installation of a version of package different to the default one 
+		perform the following steps:
+	</para>
+	<orderedlist>
+		<listitem>
+			<para>
+				Reload the package information to be aware of the latest versions available:
+
+			<itemizedlist>
+				<listitem>
+					<para>
+						Choose <menuchoice><guimenu>Edit</guimenu>
+						<guimenuitem>Reload Package Information</guimenuitem>
+						</menuchoice> from the menu.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Click on <guibutton>Reload</guibutton> in the toolbar.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+						Press the key combination 
+						<keycombo><keycap>Ctrl</keycap><keycap>R</keycap></keycombo>.
+					</para>
+				</listitem>
+			</itemizedlist>
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Select the package in the <xref linkend="synaptic-win-list"/>.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Choose <menuchoice><guimenu>Package</guimenu><guimenuitem>Force Version...</guimenuitem>
+				</menuchoice> from the menu to open a dialog with all available versions of the package.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Select the version that should be marked for installation. To confirm your 
+				decision click on the button <guibutton>Force</guibutton>.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Apply the marked changes to actually install the forced package version:
+
+				<itemizedlist>
+					<listitem>
+						<para>
+							Click on <guibutton>Apply</guibutton> in the toolbar.	
+					</para>
+					</listitem>
+					<listitem>
+						<para>
+							Choose <menuchoice><guimenu>Edit</guimenu>
+							<guimenuitem>Apply Marked Changes</guimenuitem>
+							</menuchoice> from the menu.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Press the key combination 
+							<keycombo><keycap>Ctrl</keycap><keycap>P</keycap></keycombo>.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				You will be asked for confirmation. Check the summarized changes that will be applied. 
+				To continue with the actual installation confirm the changes click on <guibutton>Apply</guibutton>
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				During the processing of the changes you will see a progressbar. Wait until
+				the changes have been applied. This can take some time depending on the number
+				of changes. Afterwards you will be returned to the main window.
+			</para>				
+			<note>
+				<para>
+					The progressbar is not available on Debian system. Instead you will
+					see a detailed terminal output.
+				 </para>
+			</note>
+		</listitem>
+	</orderedlist>
+</sect2>
+<sect2 id="synaptic-pkg-fix">
+	<title>To Fix Broken Packages</title>
+	
+	<para>
+		&app; will not allow any further changes to the system before all broken packages are fixed.
+	</para>
+	<tip>
+		<para>
+			To show all broken packages choose the <emphasis>Broken</emphasis> filter.
+		</para>
+	</tip>
+
+	<para>
+		To correct the broken packages perform the following steps:
+		choose <menuchoice><guimenu>Edit</guimenu>
+		<guimenuitem>Fix Broken Packages</guimenuitem></menuchoice> from the menu.
+	</para>
+
+	<orderedlist>
+		<listitem>
+			<para>
+				Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Fix Broken Packages</guimenuitem>
+				</menuchoice> from the menu.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Apply the marked changes to actually fix the packages:
+
+				<itemizedlist>
+					<listitem>
+						<para>
+							Click on <guibutton>Apply</guibutton> in the toolbar.	
+					</para>
+					</listitem>
+					<listitem>
+						<para>
+							Choose <menuchoice><guimenu>Edit</guimenu>
+							<guimenuitem>Apply Marked Changes</guimenuitem>
+							</menuchoice> from the menu.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Press the key combination 
+							<keycombo><keycap>Ctrl</keycap><keycap>E</keycap></keycombo>.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				You will be asked for confirmation. Check the summarized changes that will be applied. 
+				To continue with the actual repair confirm the changes click on <guibutton>Apply</guibutton>
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				During the processing of the changes you will see a progressbar. Wait until
+				the changes have been applied. This can take some time depending on the number
+				of changes. Afterwards you will be returned to the main window.
+			</para>				
+			<note>
+				<para>
+					The progressbar is not available on Debian system. Instead you will
+					see a detailed terminal output.
+				</para>
+			</note>
+		</listitem>
+	</orderedlist>
+</sect2>
+
+
+</sect1>
+
+<sect1 id="synaptic-repo">
+	<title>Repositories</title>
+
+	<para>
+		Packages are made available through so called <emphasis>repositories</emphasis>. The repository contains the
+		packages and an index which includes some basic information about the packages, e.g. required dependencies	
+		or a short description.
+	</para>
+	<para>
+		Repositories can be located on many medias: CD-Rom/DVD, local hard disk, the Web (http,ftp) 
+		or remote file system (nfs).
+	</para>
+
+
+<sect2 id="synaptic-repo-update"> 
+	<title>To Reload the Package Information</title> 
+	<para>
+		To collect the list of all available packages from the repositories choose one of the following
+		methods:
+	</para>
+	<itemizedlist>
+		<listitem>
+			<para>
+				Choose <menuchoice><guimenu>Edit</guimenu>
+				<guimenuitem>Reload Package Information</guimenuitem></menuchoice> from the menu.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Click on <guibutton>Reload</guibutton> in the toolbar.
+			</para>
+		</listitem>
+	</itemizedlist>
+</sect2>
+
+<sect2 id="synaptic-repo-manage"> 
+	<title>To Edit, Add or Remove Repositories</title> 
+	<para>
+		You can edit, add or delete repositories in the repository preferences.
+	</para>
+	<para>
+		Open the repository editor with <menuchoice><guimenu>Settings</guimenu>
+		<guimenuitem>Repositories</guimenuitem></menuchoice> from the menu.
+	</para>
+
+	<figure>
+		<title>Repository Preferences</title>
+		<screenshot> 
+			<mediaobject> 
+				<imageobject>
+					<imagedata fileref="figures/synaptic-repositories.png" 
+						format="PNG"/> 
+				</imageobject>
+				<textobject> 
+					<phrase>
+						Shows the repository preferences
+					</phrase>
+				</textobject> 
+			</mediaobject> 
+		</screenshot> 
+	</figure>
+
+</sect2>
+
+<sect2 id="synaptic-repo-cdrom"> 
+	<title>To Add Repositories From CD-ROM</title> 
+	<para> 
+		Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Add CD...</guimenuitem></menuchoice>
+		from the menu.
+	</para>
+</sect2>
+
+<sect2 id="synaptic-repo-aptline"> 
+	<title>The Syntax of the APT line</title> 
+	<para> 
+		The package manager stores all available repositories in a text based configuration file. 
+		Each line describes the type, location and content of one repository.
+	</para>
+
+	<table frame="topbot" id="table-synaptic-aptline-syntax">
+		<title>Syntax of an APT line e.g. <emphasis>deb http://ftp.debian.org sarge main</emphasis></title>
+		<tgroup cols="2" colsep="0" rowsep="0">
+			<colspec colname="COLSPEC0" colwidth="30*"/>
+			<colspec colname="COLSPEC1" colwidth="70*"/>
+			<thead>
+				<row rowsep="1">
+					<entry valign="top" align="left">
+						Element
+					</entry>
+					<entry valign="top" align="left">
+						Description
+					</entry>
+				</row>
+			</thead>
+			<tbody>
+				<row>
+					<entry valign="top">
+						deb
+					</entry>
+					<entry valign="top">
+						The first elements describes the type of the repository.
+						Possible values are <emphasis>deb</emphasis> (Debian binary packages), <emphasis>deb-src
+						</emphasis>(Debian source packages), <emphasis>rpm</emphasis> (RPM binary packages), 
+						<emphasis>rpm-src</emphasis> (Redhat source packages), <emphasis>rpmdir</emphasis>
+						(folder that contains RPM binary packages) and <emphasis>rpmdir-src</emphasis> 
+						(folder that contains RPM source packages).
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">
+						http://ftp.debian.org
+					</entry>
+					<entry valign="top">
+						The second element is the location of the repository.
+						The repository can be accessed by the protocols HTTP and 
+						FTP, or locally on a CD, DVD or hard disk.
+					</entry>
+			        </row>
+				<row>
+					<entry valign="top">
+						sarge
+					</entry>
+					<entry valign="top">
+						The third element describes the distribution for which the 
+						packages are made for, see the <ulink 
+						url="http://www.debian.org/doc/packaging-manuals/developers-reference/ch-resources.en.html#s4.6.4">
+						Debian Developer's Reference</ulink> for more details on distributions of Debian.
+					</entry>
+			        </row>
+				<row>
+					<entry valign="top">
+						main
+					</entry>
+					<entry valign="top">
+						The forth element describes sections of the 
+						repository that should be included. By default official Debian repositories are
+						separated into the sections <emphasis>main</emphasis>, <emphasis>
+						contrib</emphasis> and <emphasis>non-free</emphasis>, see the 
+						<ulink
+						 url="http://www.debian.org/doc/packaging-manuals/developers-reference/ch-resources.en.html#s4.6.1">
+						 Debian Developer's Reference</ulink> for more details on sections of Debian.
+					</entry>
+			        </row>
+			</tbody>
+		</tgroup>
+	</table>
+	<para>
+		<note><para>The distribution and section element are not required for each type.</para></note>
+	</para>
+</sect2>
+
+</sect1>
+
+<sect1 id="synaptic-filter">
+	<title>Custom Filters</title>
+	<para>
+		Filters enable you to narrow down the list of shown packages by a variety of package attributes.
+	</para>
+	<para>
+		&app; comes with a set of predefined filters.
+	</para>
+
+	<table frame="topbot" id="table-synaptic-filters">
+		<title>Predefined Filters</title>
+		<tgroup cols="2" colsep="0" rowsep="0">
+			<colspec colname="COLSPEC0" colwidth="30*"/>
+			<colspec colname="COLSPEC1" colwidth="70*"/>
+			<thead>
+				<row rowsep="1">
+					<entry valign="top" align="left">
+						Filter
+					</entry>
+					<entry valign="top" align="left">
+						Description
+					</entry>
+				</row>
+			</thead>
+			<tbody>
+				<row>
+					<entry valign="top">All packages</entry>
+					<entry valign="top">
+						Display all known packages.
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">Marked Changes</entry>
+					<entry valign="top">
+						Display all packages that are marked for a status change.
+					</entry>
+			        </row>
+				<row>
+					<entry valign="top">Pkg with Debconf</entry>
+					<entry valign="top">
+						Display all packages that can be configured through debconf
+						(Debian only).
+			                </entry>
+				</row>
+				<row>
+					<entry valign="top">Broken</entry>
+					<entry valign="top">
+						Display only packages with broken dependencies.
+			                </entry>
+				</row>
+				<row>
+					<entry valign="top">Upgradable (upstream)</entry>
+					<entry valign="top">
+						Display all packages that can be upgraded to a later 
+						upstream version.
+			                </entry>
+				</row>
+			</tbody>
+		</tgroup>
+	</table>
+
+
+	<para>
+		Because of some interface changes the set of predefined filters changed, too.
+		The old and deprecated filters are not removed automatically by Synaptic. 
+	</para>
+
+	<table frame="topbot" id="table-synaptic-filters-deprecated">
+		<title>Deprecated Filters</title>
+		<tgroup cols="2" colsep="0" rowsep="0">
+			<colspec colname="COLSPEC0" colwidth="30*"/>
+			<colspec colname="COLSPEC1" colwidth="70*"/>
+			<thead>
+				<row rowsep="1">
+					<entry valign="top" align="left">
+						Filter
+					</entry>
+					<entry valign="top" align="left">
+						Description
+					</entry>
+				</row>
+			</thead>
+			<tbody>
+				<row>
+					<entry valign="top">Install</entry>
+					<entry valign="top">
+						Display only currently installed packages.
+					</entry>
+			        </row>
+				<row>
+					<entry valign="top">Not installed</entry>
+					<entry valign="top">
+						Display only currently not installed packages.
+			                </entry>
+				</row>
+				<row>
+					<entry valign="top">Upgradable</entry>
+					<entry valign="top">
+						Display only packages with a later version available.
+			                </entry>
+				</row>
+				<row>
+					<entry valign="top">Broken</entry>
+					<entry valign="top">
+						Display only packages with broken dependencies.
+			                </entry>
+				</row>
+				<row>
+					<entry valign="top">Programmed Changes</entry>
+					<entry valign="top">
+						Display only packages marked to be modified.
+			                </entry>
+				</row>
+				<row>
+					<entry valign="top">New in archive</entry>
+					<entry valign="top">
+						Display only new packages since the last 
+						repository update.
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">Residual</entry>
+					<entry valign="top">
+						Display only former installed packages that left
+						data or configuration files on the system.
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">Pkg with Debconf</entry>
+					<entry valign="top">
+						Display only packages that can be configured through
+						the debian package configuration system, so called debconf.
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">Obsolete or locally installed</entry>
+					<entry valign="top">
+						Display only packages that are not (for longer)
+						included in one of the specified repositories.
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">Search Filter</entry>
+					<entry valign="top">
+						Display the results of the last package search.
+					</entry>
+				</row>
+			</tbody>
+		</tgroup>
+	</table>
+
+<sect2 id="synaptic-filter-apply"> 
+	<title>To Apply Filters</title> 
+	<para>
+		To apply a filter follow these steps:
+	</para>
+	<orderedlist>
+		<listitem>
+			<para>
+				Choose <guibutton>Custom Filters</guibutton> from the category combobox in 
+				the main window.
+			</para>	
+		</listitem>
+		<listitem>
+			<para>
+				Choose the wished filter from the <xref linkend="synaptic-win-selector"/>.
+			</para>
+		</listitem>
+	</orderedlist>
+</sect2>
+
+<sect2 id="synaptic-filter-edit" xreflabel="filter editor"> 
+	<title>To Edit or Create Custom Filters</title> 
+
+	<para>
+		Filters can be created, deleted and modified in the filter editor:
+	</para>
+
+	<para>
+		Choose <menuchoice><guimenu>Settings</guimenu><guimenuitem>
+		Filters</guimenuitem></menuchoice> from the menu.
+	</para>
+
+	<figure>
+		<title>Edit Filters</title> 
+		<screenshot> 
+			<mediaobject> 
+				<imageobject>
+					<imagedata fileref="figures/synaptic-filter.png" 
+						format="PNG"/> 
+				</imageobject>
+				<textobject> 
+					<phrase>
+						Shows the filter editor.
+					</phrase>
+				</textobject> 
+			</mediaobject> 
+		</screenshot> 
+	</figure>
+
+	<para>
+		The filter editor contains the following components:
+	</para>
+	
+	<variablelist>
+		<varlistentry>
+			<term>
+				List of Filter
+			</term>
+			<listitem>
+				<para>
+					Shows a list of available filters.
+				</para>
+			</listitem>
+		</varlistentry>
+		<varlistentry>
+			<term>
+				Rules
+			</term>
+			<listitem>
+				<para>
+					Rules allow you to define which packages should be shown in the list.
+					A package has to fulfill all selected criteria.
+				</para>
+				<variablelist>
+					<varlistentry>
+						<term>
+							Status
+						</term>
+						<listitem>
+							<para>
+								Allows you to search packages by status.
+							</para>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>
+							Section
+						</term>
+						<listitem>
+							<para>
+								Allows you to search packages by section.
+							</para>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>
+							Properties
+						</term>
+						<listitem>
+							<para>
+								Allows you to search packages by a variety of
+								attributes e.g. name, dependencies or origin.
+							</para>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>
+							Keywords
+						</term>
+						<listitem>
+							<para>
+								Keywords are based on debtags. Only Debian GNU/Linux 
+								with installed "debtags" supports this feature.
+							</para>
+						</listitem>
+					</varlistentry>
+				</variablelist>
+			</listitem>
+		</varlistentry>
+	</variablelist>
+
+</sect2>
+</sect1>
+
+
+
+
+<!-- sect1 id="snyaptic-prefs">
+	<title>Settings</title>
+
+	NEEDS SOME LOVE - THEREFOR DISABLED
+
+<sect2 id="synaptic-prefs-general" xreflabel="action preferences"> 
+	<title>General</title> 
+	<para>
+		The general preferences include the following settings:
+	</para>
+	
+	<variablelist>
+		<varlistentry>
+			<term>
+				General
+			</term>
+			<listitem>
+				<variablelist>
+					<varlistentry>
+						<term>
+							Allow regular expressions in searches and filters
+						</term>
+							<listitem>
+								<para>
+									Regular expression are an advanced method of text
+									matching.
+								</para>
+							</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>
+							Consider recommended packages as dependencies
+						</term>
+							<listitem>
+								<para>
+									Regular expression are an advanced method of text
+									matching.
+								</para>
+							</listitem>
+					</varlistentry>
+				</variablelist>
+			</listitem>
+		</varlistentry>
+		<varlistentry>
+			<term>
+				Actions
+			</term>
+			<listitem>
+				<anchor id="synaptic-prefs-actions" xreflabel="action settings"/>
+				<variablelist>
+					<varlistentry>
+						<term>
+							Apply changes in a terminal window
+						</term>
+							<listitem>
+								<para>
+									Regular expression are an advanced method of text
+									matching.
+								</para>
+							</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>
+							Ask to quit after the changes have been applied successfully
+						</term>
+							<listitem>
+								<para>
+									Regular expression are an advanced method of text
+									matching.
+								</para>
+							</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>
+							Remove package
+						</term>
+							<listitem>
+								<para>
+									Regular expression are an advanced method of text
+									matching.
+								</para>
+							</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>
+							Upgrade method
+						</term>
+							<listitem>
+								<para>
+									Regular expression are an advanced method of text
+									matching.
+								</para>
+							</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>
+							Number of undo operations
+						</term>
+							<listitem>
+								<para>
+									Regular expression are an advanced method of text
+									matching.
+								</para>
+							</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>
+							Confirm actions also affecting other packages
+						</term>
+							<listitem>
+								<para>
+									Regular expression are an advanced method of text
+									matching.
+								</para>
+							</listitem>
+					</varlistentry>
+				</variablelist>
+			</listitem>
+		</varlistentry>
+	</variablelist>
+</sect2>
+
+<sect2 id="synaptic-prefs-layout"> 
+	<title>Layout</title> 
+	<para>
+		You can change the appearance of Synaptic.
+	</para>
+	<variablelist>
+		<varlistentry>
+			<term>
+				Main Window
+			</term>
+			<listitem>
+				<para>
+					Choose between two different layouts of the main window.
+				</para>
+			</listitem>
+		</varlistentry>
+		<varlistentry>
+			<term>
+				Fonts
+			</term>
+			<listitem>
+				<para>
+					Specify custom fonts for the application and the terminal output.
+				</para>
+			</listitem>
+		</varlistentry>
+	</variablelist>
+</sect2>
+
+<sect2 id="synaptic-prefs-ordercolor"> 
+	<title>Column Order and Colours</title> 
+	<para>
+		Modify the appearance of the package list in the main window.
+	</para>
+	<variablelist>
+		<varlistentry>
+			<term>
+				Column Order
+			</term>
+			<listitem>
+				<para>
+					Order the columns of the package list. A value of -1 hides the column.
+				</para>
+			</listitem>
+		</varlistentry>
+		<varlistentry>
+			<term>
+				Colors
+			</term>
+			<listitem>
+				<para>
+					Assign colors to visualize the package status.
+				</para>
+			</listitem>
+		</varlistentry>
+	</variablelist>
+
+</sect2>    
+
+<sect2 id="synaptiac-prefs-temp"> 
+	<title>Temporary Files</title> 
+	<para>
+		Configure the management of completely or partially downloaded package files.
+	</para>
+</sect2> 
+
+<sect2 id="synaptiac-prefs-network"> 
+	<title>Network</title> 
+	<para> 
+		Configure the Internet connection and proxy server.
+	</para>
+</sect2> 
+
+<sect2 id="synaptiac-prefs-expert"> 
+	<title>Expert</title>
+	<para>
+		Undocumented.	
+	</para>
+</sect2> 
+</sect1 -->
+
+<sect1 id="synaptic-bugs">
+	<title>Known Bugs and Limitations</title>
+	<para>
+		
+
+	<table frame="topbot" id="synaptic-bugs-table">
+		<title>Known issues and workarounds</title>
+		<tgroup cols="2" colsep="0" rowsep="0">
+			<colspec colname="COLSPEC0" colwidth="30*"/>
+			<colspec colname="COLSPEC1" colwidth="70*"/>
+			<thead>
+				<row rowsep="1">
+					<entry valign="top" align="left">
+						Problem
+					</entry>
+					<entry valign="top" align="left">
+						Workaround
+					</entry>
+				</row>
+			</thead>
+			<tbody>
+				<row>
+					<entry valign="top">
+						Unsupported locale
+					</entry>
+					<entry valign="top">
+						Use a locale supported by Xlib.
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">
+						A failed installation blocks further operations in synaptic
+					</entry>
+					<entry valign="top">
+						<para>
+							Under some rare circumstances the actual installation or removal of a package can fail. 
+							As a consequence all other marked changes are canceled, too. 
+						</para>
+						<para>
+							&app; requires a 
+							clear environment with no half installed packages 
+							to perform additional changes. But at the moment there is no way to continue
+							canceled installations within &app;.
+						</para>
+						<para>
+							To fix this situation type the following command in a terminal, then press
+							<keycap>Return</keycap>:
+						</para>
+						<command>
+							apt-get install -f
+						</command>
+					</entry>
+				</row>
+			</tbody>
+		</tgroup>
+	</table>
+	</para>
+</sect1>
+
+<sect1 id="synaptic-shortcuts">
+	<title>Keyboard Shortcuts</title>
+	<para>
+		List of all global short cuts in &app;:
+	</para>
+	<informaltable frame="none" id="synaptic-shortcuts-table">
+	
+		<tgroup cols="2" colsep="0" rowsep="0">
+			<colspec colname="COLSPEC0" colwidth="30*"/>
+			<colspec colname="COLSPEC1" colwidth="70*"/>
+			<tbody>
+				<row>
+					<entry valign="top">
+						Reload the list of known packages
+					</entry>
+					<entry valign="top">
+						<keycombo><keycap>Ctrl</keycap><keycap>R</keycap></keycombo>
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">
+						Open the package search dialog
+					</entry>
+					<entry valign="top">
+						<keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo>
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">
+						Open the properties dialog for the selected package
+					</entry>
+					<entry valign="top">
+						<keycombo><keycap>Ctrl</keycap><keycap>O</keycap></keycombo>
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">
+						Mark the selected package(s) for installation
+					</entry>
+					<entry valign="top">
+						<keycombo><keycap>Ctrl</keycap><keycap>I</keycap></keycombo>
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">
+						Mark the selected package(s) for upgrade
+					</entry>
+					<entry valign="top">
+						<keycombo><keycap>Ctrl</keycap><keycap>U</keycap></keycombo>
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">
+						Mark the selected package(s) for removal
+					</entry>
+					<entry valign="top">
+						<keycap>Delete</keycap>
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">
+						Mark the selected package(s) for complete removal (Debian only)
+					</entry>
+					<entry valign="top">
+						<keycombo><keycap>Shift</keycap><keycap>Delete</keycap></keycombo>
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">
+						Unmark any changes to the selected package(s)
+					</entry>
+					<entry valign="top">
+						<keycombo><keycap>Ctrl</keycap><keycap>N</keycap></keycombo>
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">
+						Mark all possible upgrades
+					</entry>
+					<entry valign="top">
+						<keycombo><keycap>Ctrl</keycap><keycap>G</keycap></keycombo>
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">
+						Force the installation of a specific version of the package
+					</entry>
+					<entry valign="top">
+						<keycombo><keycap>Ctrl</keycap><keycap>E</keycap></keycombo>
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">
+						Undo the last status change to a package and to the
+						therefor required dependencies
+					</entry>
+					<entry valign="top">
+						<keycombo><keycap>Ctrl</keycap><keycap>Z</keycap></keycombo>
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">
+						Redo the last reverted status change to a package and to the
+						therefor required dependencies
+					</entry>
+					<entry valign="top">
+						<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap>
+						<keycap>Z</keycap></keycombo>
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">
+						Apply all marked changes
+					</entry>
+					<entry valign="top">
+						<keycombo><keycap>Ctrl</keycap><keycap>P</keycap></keycombo>
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">
+						Quit &app;
+					</entry>
+					<entry valign="top">
+						<keycombo><keycap>Ctrl</keycap><keycap>Q</keycap></keycombo>
+					</entry>
+				</row>
+				<row>
+					<entry valign="top">
+						Show the manual of &app;
+					</entry>
+					<entry valign="top">
+						<keycap>F1</keycap>
+					</entry>
+				</row>
+			</tbody>
+		</tgroup>
+	</informaltable>
+</sect1>
+
+
+<sect1 id="myapp-about"> 
+	<title>About &app;</title> 
+	<para> 
+		&app; was originally written by Alfredo K. Kojima (<email>kojima@windowmaker.org</email>)
+		and is now maintained by Michael Vogt (<email>mvo@debian.org</email>) and
+		Gustavo Niemeyer (<email>niemeyer@conectiva.com</email>).
+		To get more information about &app;, please visit the 
+		<ulink url="http://www.nongnu.org/synaptic" type="http">Synaptic Web Page</ulink>.
+	</para>
+	<para>
+		To report a bug or make a suggestion regarding &app; 
+		or this manual, use the bug report system on the <ulink 
+		url="http://www.nongnu.org/synaptic" type="http">Synaptic Web Site</ulink>, contact 
+		the mailing list <email>synaptic@nongnu.org</email> or join the IRC channel 
+		#synaptic on irc.freenode.org.
+	</para>
+	<para> 
+		This program is distributed under the terms of the GNU
+		Public license as published by the Free Software; either version 2 of the License, 
+		or (at your option) later version. A copy of this license can be found in
+		, or in the file included with 
+		the source code of this program. 
+	</para>
+</sect1> 
+
+<!-- Appendix with GPL -->
+&legal;
+</article>
